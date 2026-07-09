@@ -2,10 +2,9 @@
 
 **Live:** https://seb007755.github.io/calculAIR/
 
-A local-first web app to compose, manage and calculate perfume formulas —
-functionally inspired by [Formulair](https://formulair.app/). All data lives in
-the browser (`localStorage`), can be exported/imported as JSON, and individual
-formulas can be exported to PDF. Deployed via GitHub Pages.
+A local-first web app to compose, manage and calculate perfume formulas. All
+data lives in the browser (`localStorage`), can be exported/imported as JSON, and
+individual formulas can be exported to PDF. Deployed via GitHub Pages.
 
 UI language is **German**; code, comments and commits are **English**.
 

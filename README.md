@@ -1,5 +1,7 @@
 # Parfum Rezeptur — Perfume Formula Editor
 
+**Live:** https://seb007755.github.io/calculAIR/
+
 A local-first web app to compose, manage and calculate perfume formulas —
 functionally inspired by [Formulair](https://formulair.app/). All data lives in
 the browser (`localStorage`), can be exported/imported as JSON, and individual

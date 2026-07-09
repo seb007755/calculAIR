@@ -1,0 +1,44 @@
+.wrap {
+  position: relative;
+  display: flex;
+  align-items: center;
+  background: var(--bg-input);
+  border: 1px solid transparent;
+  border-radius: var(--radius-button);
+}
+
+.wrap:focus-within {
+  border-color: var(--border-focus);
+}
+
+.disabled {
+  opacity: 0.5;
+}
+
+.input {
+  width: 100%;
+  border: none;
+  background: transparent;
+  outline: none;
+  padding: 10px 12px;
+  /* Numbers always monospace, right aligned, bold. */
+  font-family: var(--font-mono);
+  font-variant-numeric: tabular-nums;
+  font-size: 18px;
+  font-weight: 700;
+  color: var(--text-primary);
+}
+
+/* Reserve room on the right so the suffix never overlaps input text. */
+.wrap:has(.suffix) .input {
+  padding-right: 40px;
+}
+
+.suffix {
+  position: absolute;
+  right: 12px;
+  pointer-events: none;
+  font-family: var(--font-mono);
+  font-size: 13px;
+  color: var(--text-secondary);
+}

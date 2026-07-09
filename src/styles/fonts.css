@@ -1,0 +1,5 @@
+/*
+ * Inter + JetBrains Mono via Google Fonts.
+ * Only the weights the design system uses are requested (400 / 600 / 700).
+ */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=JetBrains+Mono:wght@400;600;700&display=swap');

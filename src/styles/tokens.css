@@ -1,0 +1,47 @@
+/*
+ * Design tokens — SINGLE SOURCE OF TRUTH.
+ * Do not hardcode colors, radii, spacing or fonts anywhere else.
+ */
+:root {
+  /* Backgrounds */
+  --bg-app: #f8f9fa;
+  --bg-card: #ffffff;
+  --bg-input: #f1f3f5;
+
+  /* Accents & Primary */
+  --accent-primary: #111111;
+  --accent-primary-hover: #222222;
+  --accent-secondary: #2b2d42;
+  --accent-gold: #c5a059;
+
+  /* Borders & Shadows */
+  --border-subtle: #e9ecef;
+  --border-focus: #111111;
+  --shadow-card: 0 2px 8px rgba(0, 0, 0, 0.02);
+
+  /* Semantic */
+  --danger: #b42318;
+  --success: #067647;
+
+  /* Typography */
+  --text-primary: #111111;
+  --text-secondary: #6b7280;
+  --text-on-accent: #ffffff;
+
+  /* Radii */
+  --radius-card: 6px;
+  --radius-button: 4px;
+
+  /* Spacing scale */
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-5: 24px;
+  --space-6: 32px;
+  --space-8: 48px;
+
+  /* Fonts */
+  --font-sans: 'Inter', 'SF Pro', -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-mono: 'JetBrains Mono', 'SF Mono', ui-monospace, monospace;
+}

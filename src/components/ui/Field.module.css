@@ -1,0 +1,45 @@
+.field {
+  width: 100%;
+  background: var(--bg-input);
+  border: 1px solid transparent;
+  border-radius: var(--radius-button);
+  padding: 10px 12px;
+  font-size: 14px;
+  color: var(--text-primary);
+  outline: none;
+}
+
+.field::placeholder {
+  color: var(--text-secondary);
+}
+
+.field:focus {
+  border-color: var(--border-focus);
+}
+
+.textarea {
+  resize: vertical;
+  min-height: 72px;
+  font-family: var(--font-sans);
+  line-height: 1.5;
+}
+
+/* Select variant */
+.select {
+  width: 100%;
+  background: var(--bg-input);
+  border: 1px solid transparent;
+  border-radius: var(--radius-button);
+  padding: 10px 32px 10px 12px;
+  font-size: 14px;
+  color: var(--text-primary);
+  outline: none;
+  appearance: none;
+  background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 24 24' fill='none' stroke='%236B7280' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'><polyline points='6 9 12 15 18 9'/></svg>");
+  background-repeat: no-repeat;
+  background-position: right 10px center;
+}
+
+.select:focus {
+  border-color: var(--border-focus);
+}

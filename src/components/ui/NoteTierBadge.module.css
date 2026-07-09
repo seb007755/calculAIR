@@ -1,0 +1,41 @@
+.badge {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2px 8px;
+  border-radius: 999px;
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  border: 1px solid var(--border-subtle);
+  white-space: nowrap;
+  line-height: 1.4;
+}
+
+.clickable {
+  cursor: pointer;
+}
+.clickable:hover {
+  border-color: var(--accent-primary);
+}
+
+.top {
+  background: #fff7ed;
+  color: #9a3412;
+  border-color: #fed7aa;
+}
+.heart {
+  background: #fdf2f8;
+  color: #9d174d;
+  border-color: #fbcfe8;
+}
+.base {
+  background: #f0f9ff;
+  color: #075985;
+  border-color: #bae6fd;
+}
+.modifier {
+  background: var(--bg-input);
+  color: var(--text-secondary);
+  border-color: var(--border-subtle);
+}

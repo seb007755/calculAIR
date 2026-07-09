@@ -1,0 +1,78 @@
+.button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--space-2);
+  height: 48px;
+  padding: 0 var(--space-5);
+  border-radius: var(--radius-button);
+  border: 1px solid transparent;
+  font-weight: 600;
+  font-size: 14px;
+  white-space: nowrap;
+  transition:
+    background 0.12s ease,
+    opacity 0.12s ease,
+    border-color 0.12s ease;
+}
+
+.button:disabled {
+  opacity: 0.4;
+  cursor: not-allowed;
+}
+
+.icon {
+  display: inline-flex;
+  align-items: center;
+}
+
+.fullWidth {
+  width: 100%;
+}
+
+.sm {
+  height: 34px;
+  padding: 0 var(--space-3);
+  font-size: 13px;
+}
+
+/* Primary CTA */
+.primary {
+  background: var(--accent-primary);
+  color: var(--text-on-accent);
+}
+.primary:not(:disabled):hover {
+  background: var(--accent-primary-hover);
+}
+
+/* Secondary — outlined */
+.secondary {
+  background: transparent;
+  border-color: var(--accent-primary);
+  color: var(--accent-primary);
+}
+.secondary:not(:disabled):hover {
+  background: var(--bg-input);
+}
+
+/* Ghost — quiet, for icon actions in rows */
+.ghost {
+  background: transparent;
+  color: var(--text-secondary);
+  border-color: transparent;
+}
+.ghost:not(:disabled):hover {
+  background: var(--bg-input);
+  color: var(--text-primary);
+}
+
+/* Danger */
+.danger {
+  background: transparent;
+  border-color: var(--danger);
+  color: var(--danger);
+}
+.danger:not(:disabled):hover {
+  background: var(--danger);
+  color: var(--text-on-accent);
+}

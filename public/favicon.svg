@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+  <rect x="0.5" y="0.5" width="511" height="511" rx="96" fill="#F8F9FA" stroke="#111111" stroke-width="1"/>
+  <!-- Flacon body -->
+  <g fill="none" stroke="#111111" stroke-width="14" stroke-linejoin="round" stroke-linecap="round">
+    <path d="M176 214 h160 a40 40 0 0 1 40 40 v132 a40 40 0 0 1 -40 40 h-160 a40 40 0 0 1 -40 -40 v-132 a40 40 0 0 1 40 -40 z"/>
+    <!-- Neck -->
+    <path d="M226 214 v-34 h60 v34"/>
+    <!-- Cap -->
+    <rect x="222" y="150" width="68" height="30" rx="6"/>
+    <!-- Precision-scale graduation marks on the body -->
+    <path d="M176 300 h44 M176 336 h30 M176 372 h44"/>
+  </g>
+  <!-- Gold spray / accent line -->
+  <g stroke="#C5A059" stroke-width="10" stroke-linecap="round">
+    <path d="M256 150 v-40"/>
+    <circle cx="256" cy="96" r="7" fill="#C5A059" stroke="none"/>
+    <circle cx="300" cy="104" r="5" fill="#C5A059" stroke="none"/>
+    <circle cx="212" cy="104" r="5" fill="#C5A059" stroke="none"/>
+  </g>
+  <!-- Drop mark inside -->
+  <path d="M300 320 c0 22 -18 34 -18 34 c0 0 -18 -12 -18 -34 a18 18 0 0 1 36 0 z" fill="#C5A059" stroke="none"/>
+</svg>

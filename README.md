@@ -2,6 +2,8 @@
 
 **Live:** https://seb007755.github.io/calculAIR/
 
+**Benutzerhandbuch (Deutsch, PDF):** [`docs/Benutzerhandbuch.pdf`](docs/Benutzerhandbuch.pdf) — regenerate with `node scripts/gen-manual.mjs docs/Benutzerhandbuch.pdf`.
+
 A local-first web app to compose, manage and calculate perfume formulas. All
 data lives in the browser (`localStorage`), can be exported/imported as JSON, and
 individual formulas can be exported to PDF. Deployed via GitHub Pages.

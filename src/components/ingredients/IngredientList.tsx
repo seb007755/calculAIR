@@ -1,9 +1,21 @@
 import type { Ingredient } from '../../types/models';
+import { NOTE_TIERS } from '../../types/models';
 import { Pencil, Trash2, Droplet } from 'lucide-react';
 import { NoteTierBadge } from '../ui/NoteTierBadge';
 import { Button } from '../ui/Button';
+import { noteTierLabels } from '../../lib/strings';
 import { formatMoney, formatNumber2 } from '../../lib/units';
 import styles from './IngredientList.module.css';
+
+/** "Kopf 70% · Herz 30%" for a multi-tier material, or "" for a single tier. */
+function tierDistribution(ing: Ingredient): string {
+  const w = ing.tierWeights;
+  if (!w) return '';
+  const parts = NOTE_TIERS.filter((t) => (w[t] ?? 0) > 0).map(
+    (t) => `${noteTierLabels[t]} ${Math.round(w[t] as number)}%`,
+  );
+  return parts.length > 1 ? parts.join(' · ') : '';
+}
 
 interface Props {
   ingredients: Ingredient[];
@@ -28,7 +40,7 @@ export function IngredientList({ ingredients, currency, usageCount, onEdit, onDe
             <th className="num">Dichte</th>
             <th className="num">Std.-Verd.</th>
             <th className="num">Preis/g</th>
-            <th className="num">Verwendung</th>
+            <th className="num">Rezepturen</th>
             <th aria-label="Aktionen" />
           </tr>
         </thead>
@@ -44,16 +56,19 @@ export function IngredientList({ ingredients, currency, usageCount, onEdit, onDe
                     )}
                     <span>{ing.name}</span>
                   </div>
-                  {(ing.supplier || ing.tags?.length) && (
+                  {(ing.manufacturer || ing.supplier || ing.tags?.length) && (
                     <div className={styles.meta}>
-                      {ing.supplier}
-                      {ing.supplier && ing.tags?.length ? ' · ' : ''}
-                      {ing.tags?.join(', ')}
+                      {[ing.manufacturer, ing.supplier, ing.tags?.join(', ')]
+                        .filter(Boolean)
+                        .join(' · ')}
                     </div>
                   )}
                 </td>
                 <td>
                   <NoteTierBadge tier={ing.noteTier} />
+                  {tierDistribution(ing) && (
+                    <div className={styles.meta}>{tierDistribution(ing)}</div>
+                  )}
                 </td>
                 <td className="num">{ing.density ? formatNumber2(ing.density) : '—'}</td>
                 <td className="num">{ing.defaultDilution}%</td>

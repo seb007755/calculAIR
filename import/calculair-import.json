@@ -1,0 +1,2827 @@
+{
+  "schemaVersion": 1,
+  "exportedAt": "2026-07-09T15:46:21",
+  "ingredients": [
+    {
+      "id": "imp-aldehyd-c9-nonanal",
+      "name": "Aldehyd C9 Nonanal",
+      "cas": "124-19-6",
+      "manufacturer": "Firmenich",
+      "supplier": "perfumiarz",
+      "noteTier": "base",
+      "tierWeights": {
+        "base": 70,
+        "top": 30
+      },
+      "pricePerGram": 0.8,
+      "priceTiers": [
+        {
+          "grams": 5.0,
+          "price": 4.0
+        }
+      ],
+      "defaultDilution": 1.0,
+      "dilutionSolvent": "1% ETH",
+      "odorStrength": "stark",
+      "usageRate": "Spur - 0,5%",
+      "shelfLife": "6-12 Mon",
+      "purchaseDate": "2026-05-01",
+      "characteristics": "Orangenschale, sauber, wachsig, rosig, verstärkt Orangenschale, Jasmin, Lilie",
+      "isSolvent": false,
+      "createdAt": "2026-07-09T15:46:21",
+      "updatedAt": "2026-07-09T15:46:21"
+    },
+    {
+      "id": "imp-aldehyd-c11-undecylen",
+      "name": "Aldehyd C11 Undecylen",
+      "cas": "112-45-8",
+      "supplier": "Hekserij",
+      "noteTier": "base",
+      "tierWeights": {
+        "base": 70,
+        "top": 30
+      },
+      "pricePerGram": 1.19,
+      "priceTiers": [
+        {
+          "grams": 5.0,
+          "price": 5.95
+        }
+      ],
+      "defaultDilution": 100.0,
+      "odorStrength": "stark",
+      "usageRate": "Spur - 0,5%",
+      "shelfLife": "6-12 Mon",
+      "isSolvent": false,
+      "createdAt": "2026-07-09T15:46:21",
+      "updatedAt": "2026-07-09T15:46:21"
+    },
+    {
+      "id": "imp-aldehyd-c12-mna",
+      "name": "Aldehyd C12 MNA",
+      "cas": "110-41-8",
+      "supplier": "Hekserij",
+      "noteTier": "base",
+      "tierWeights": {
+        "base": 70,
+        "top": 30
+      },
+      "pricePerGram": 0.79,
+      "priceTiers": [
+        {
+          "grams": 5.0,
+          "price": 3.95
+        }
+      ],
+      "defaultDilution": 100.0,
+      "odorStrength": "stark",
+      "usageRate": "Spur - 1%",
+      "shelfLife": "6-12 Mon",
+      "isSolvent": false,
+      "createdAt": "2026-07-09T15:46:21",
+      "updatedAt": "2026-07-09T15:46:21"
+    },
+    {
+      "id": "imp-acetophenone",
+      "name": "Acetophenone",
+      "cas": "98-86-2",
+      "supplier": "Hekserij",
+      "noteTier": "top",
+      "tierWeights": {
+        "top": 100
+      },
+      "pricePerGram": 0.495,
+      "priceTiers": [
+        {
+          "grams": 10.0,
+          "price": 4.95
+        }
+      ],
+      "defaultDilution": 10.0,
+      "dilutionSolvent": "10% DPG",
+      "odorStrength": "stark",
+      "usageRate": "Spur-1%",
+      "shelfLife": "recht lange",
+      "characteristics": "Leder, Mandeln, Heliotrop, in Verdünnung: Vanille, Akazie, Blüten",
+      "isSolvent": false,
+      "createdAt": "2026-07-09T15:46:21",
+      "updatedAt": "2026-07-09T15:46:21"
+    },
+    {
+      "id": "imp-algenone",
+      "name": "Algenone",
+      "cas": "mix",
+      "manufacturer": "Synarome",
+      "supplier": "perfumiarz",
+      "noteTier": "heart",
+      "tierWeights": {
+        "heart": 70,
+        "base": 30
+      },
+      "pricePerGram": 1.0,
+      "priceTiers": [
+        {
+          "grams": 5.0,
+          "price": 5.0
+        }
+      ],
+      "defaultDilution": 100.0,
+      "usageRate": "0,03-3.0%",
+      "purchaseDate": "2026-05-01",
+      "characteristics": "marine-grün, salzig, florale Nuancen Lilie, feuchter Sand, Seegras, Muscheln, Ozon, aquatisch-frisch-grün",
+      "isSolvent": false,
+      "createdAt": "2026-07-09T15:46:21",
+      "updatedAt": "2026-07-09T15:46:21"
+    },
+    {
+      "id": "imp-allyl-amyl-glycolate",
+      "name": "Allyl Amyl Glycolate",
+      "cas": "67634-00-8",
+      "supplier": "perfumiarz",
+      "noteTier": "base",
+      "tierWeights": {
+        "base": 70,
+        "top": 30
+      },
+      "pricePerGram": 0.8,
+      "priceTiers": [
+        {
+          "grams": 5.0,
+          "price": 4.0
+        }
+      ],
+      "defaultDilution": 10.0,
+      "dilutionSolvent": "10% DPG",
+      "odorStrength": "nicht sehr stark",
+      "usageRate": "1% -overdose",
+      "shelfLife": "recht lange",
+      "characteristics": "fruchtig, Ananas, Galbanum, marine, metallisch, funkeln, Sulfur,  gut mit Dihydromyrcenol, top-note-modifier",
+      "isSolvent": false,
+      "createdAt": "2026-07-09T15:46:21",
+      "updatedAt": "2026-07-09T15:46:21"
+    },
+    {
+      "id": "imp-amarocit-methyl-pamplemousse",
+      "name": "Amarocit (Methyl Pamplemousse)",
+      "cas": "67674-46-8",
+      "manufacturer": "Symrise",
+      "supplier": "perfumiarz",
+      "noteTier": "top",
+      "tierWeights": {
+        "top": 100
+      },
+      "pricePerGram": 1.0,
+      "priceTiers": [
+        {
+          "grams": 5.0,
+          "price": 5.0
+        }
+      ],
+      "defaultDilution": 10.0,
+      "dilutionSolvent": "10% DPG (special bitter aspect)",
+      "odorStrength": "nicht sehr stark",
+      "usageRate": "grössere Mengen",
+      "purchaseDate": "2026-05-01",
+      "characteristics": "Grapefruit, saftig, frisch, leicht seifig, holzig, grün, krautig, Veilchen Facetten,  gut mit Vetiver(booster), Dihydromyrcenol, CassisBase345B",
+      "isSolvent": false,
+      "createdAt": "2026-07-09T15:46:21",
+      "updatedAt": "2026-07-09T15:46:21"
+    },
+    {
+      "id": "imp-amber-xtreme",
+      "name": "Amber Xtreme",
+      "cas": "476332-65-7",
+      "manufacturer": "IFF",
+      "supplier": "Hekserij",
+      "noteTier": "base",
+      "tierWeights": {
+        "base": 100
+      },
+      "pricePerGram": 1.63,
+      "priceTiers": [
+        {
+          "grams": 5.0,
+          "price": 12.95
+        },
+        {
+          "grams": 10.0,
+          "price": 16.3
+        }
+      ],
+      "defaultDilution": 10.0,
+      "dilutionSolvent": "10% IPM",
+      "odorStrength": "stark",
+      "usageRate": "max. 0,5%",
+      "characteristics": "verbindet Holz, Amber und Moschus gut miteinander",
+      "isSolvent": false,
+      "createdAt": "2026-07-09T15:46:21",
+      "updatedAt": "2026-07-09T15:46:21"
+    },
+    {
+      "id": "imp-ambermax-10-tec",
+      "name": "Ambermax 10% TEC",
+      "cas": "929625-08-1",
+      "manufacturer": "Givaudan",
+      "supplier": "Hekserij",
+      "noteTier": "base",
+      "tierWeights": {
+        "base": 70,
+        "top": 30
+      },
+      "pricePerGram": 0.695,
+      "priceTiers": [
+        {
+          "grams": 10.0,
+          "price": 6.95
+        }
+      ],
+      "defaultDilution": 1.0,
+      "dilutionSolvent": "1% TEC",
+      "odorStrength": "stark",
+      "characteristics": "starker, recht animalischer Duft mit Aspekten von Moschus, Holz und Amber",
+      "isSolvent": false,
+      "createdAt": "2026-07-09T15:46:21",
+      "updatedAt": "2026-07-09T15:46:21"
+    },
+    {
+      "id": "imp-ambrocenid-10-dpg",
+      "name": "Ambrocenid 10% DPG",
+      "cas": "211299-54-6",
+      "manufacturer": "Symrise",
+      "supplier": "Hekserij",
+      "noteTier": "base",
+      "tierWeights": {
+        "base": 100
+      },
+      "pricePerGram": 0.995,
+      "priceTiers": [
+        {
+          "grams": 10.0,
+          "price": 9.95
+        }
+      ],
+      "defaultDilution": 1.0,
+      "dilutionSolvent": "1% DPG",
+      "odorStrength": "stark",
+      "usageRate": "0,1-0,3%",
+      "characteristics": "strahlender Duft nach Holz und Amber",
+      "isSolvent": false,
+      "createdAt": "2026-07-09T15:46:21",
+      "updatedAt": "2026-07-09T15:46:21"
+    },
+    {
+      "id": "imp-ambroxan-powder",
+      "name": "Ambroxan (powder)",
+      "cas": "6790-58-5",
+      "manufacturer": "Kao",
+      "supplier": "perfumiarz",
+      "noteTier": "base",
+      "tierWeights": {
+        "base": 100
+      },
+      "pricePerGram": 2.0,
+      "priceTiers": [
+        {
+          "grams": 5.0,
+          "price": 10.0
+        }
+      ],
+      "defaultDilution": 10.0,
+      "dilutionSolvent": "10% IPM",
+      "odorStrength": "sehr stark",
+      "usageRate": "0,1-5%",
+      "shelfLife": "lange",
+      "characteristics": "Amber, süss, animalisch, Ambergris",
+      "isSolvent": false,
+      "createdAt": "2026-07-09T15:46:21",
+      "updatedAt": "2026-07-09T15:46:21"
+    },
+    {
+      "id": "imp-amyris-eo",
+      "name": "Amyris EO",
+      "cas": "90320-49-3",
+      "supplier": "Hekserij",
+      "noteTier": "base",
+      "tierWeights": {
+        "base": 100
+      },
+      "pricePerGram": 0.795,
+      "priceTiers": [
+        {
+          "grams": 10.0,
+          "price": 7.95
+        }
+      ],
+      "defaultDilution": 100.0,
+      "odorStrength": "nicht sehr stark",
+      "usageRate": "0,1-30%",
+      "characteristics": "warm, holzig, Sandelholz, etwas rauchig und teerig, gut mit ledrigen Parfums, schwerem grün, lavendel, Gewürzen und Animalik",
+      "isSolvent": false,
+      "createdAt": "2026-07-09T15:46:21",
+      "updatedAt": "2026-07-09T15:46:21"
+    },
+    {
+      "id": "imp-anisaldehyde",
+      "name": "Anisaldehyde",
+      "cas": "123-11-4",
+      "supplier": "Hekserij",
+      "noteTier": "top",
+      "tierWeights": {
+        "top": 70,
+        "heart": 30
+      },
+      "defaultDilution": 100.0,
+      "dilutionSolvent": "DPG",
+      "odorStrength": "nicht sehr stark",
+      "characteristics": "Weissdorn, Akazie, vanille-spice, Lindenblüte, Veilchen,",
+      "isSolvent": false,
+      "createdAt": "2026-07-09T15:46:21",
+      "updatedAt": "2026-07-09T15:46:21"
+    },
+    {
+      "id": "imp-apo-patchone-coeur",
+      "name": "Apo Patchone Coeur",
+      "cas": "4621-04-9",
+      "manufacturer": "IFF",
+      "supplier": "Hekserij",
+      "noteTier": "modifier",
+      "pricePerGram": 0.695,
+      "priceTiers": [
+        {
+          "grams": 10.0,
+          "price": 6.95
+        }
+      ],
+      "defaultDilution": 100.0,
+      "dilutionSolvent": "25-50%",
+      "odorStrength": "mittel stark",
+      "shelfLife": "recht lange",
+      "characteristics": "Leder, Sellerie, Flieder, Rose, Geranie, Akzenturierung von Animalischen Noten",
+      "isSolvent": false,
+      "createdAt": "2026-07-09T15:46:21",
+      "updatedAt": "2026-07-09T15:46:21"
+    },
+    {
+      "id": "imp-basil-mc-eo",
+      "name": "Basil MC EO",
+      "cas": "84775-71-3",
+      "supplier": "Hekserij",
+      "noteTier": "top",
+      "tierWeights": {
+        "top": 70,
+        "heart": 30
+      },
+      "pricePerGram": 0.595,
+      "priceTiers": [
+        {
+          "grams": 10.0,
+          "price": 5.95
+        }
+      ],
+      "defaultDilution": 100.0,
+      "characteristics": "frisch, würzig, Basilikum, Anis, bis in die Basis warm",
+      "isSolvent": false,
+      "createdAt": "2026-07-09T15:46:21",
+      "updatedAt": "2026-07-09T15:46:21"
+    },
+    {
+      "id": "imp-benzoe",
+      "name": "Benzoe",
+      "noteTier": "modifier",
+      "defaultDilution": 100.0,
+      "isSolvent": false,
+      "createdAt": "2026-07-09T15:46:21",
+      "updatedAt": "2026-07-09T15:46:21"
+    },
+    {
+      "id": "imp-bergamotte-fcr-adr-eo",
+      "name": "Bergamotte FCR ADR EO",
+      "cas": "89957-91-5",
+      "supplier": "Hekserij",
+      "noteTier": "top",
+      "tierWeights": {
+        "top": 100
+      },
+      "pricePerGram": 0.995,
+      "priceTiers": [
+        {
+          "grams": 10.0,
+          "price": 9.95
+        }
+      ],
+      "defaultDilution": 100.0,
+      "shelfLife": "12 Mon",
+      "characteristics": "Bergamotte, Citrus, frisch",
+      "isSolvent": false,
+      "createdAt": "2026-07-09T15:46:21",
+      "updatedAt": "2026-07-09T15:46:21"
+    },
+    {
+      "id": "imp-beta-ionon",
+      "name": "Beta Ionon",
+      "cas": "79-77-6",
+      "supplier": "scentfriends",
+      "noteTier": "base",
+      "tierWeights": {
+        "base": 70,
+        "heart": 30
+      },
+      "pricePerGram": 0.59,
+      "priceTiers": [
+        {
+          "grams": 5.0,
+          "price": 3.9
+        },
+        {
+          "grams": 10.0,
+          "price": 5.9
+        }
+      ],
+      "defaultDilution": 100.0,
+      "odorStrength": "nicht sehr stark",
+      "usageRate": "0,1-20%",
+      "purchaseDate": "2026-04",
+      "characteristics": "Iris, Veilchen mit deutlichen Aspekten von Holz und Waldfrüchten, Beeren, fruchtiger als Alpha Ionon",
+      "isSolvent": false,
+      "createdAt": "2026-07-09T15:46:21",
+      "updatedAt": "2026-07-09T15:46:21"
+    },
+    {
+      "id": "imp-birch-tar-eo",
+      "name": "Birch Tar EO",
+      "cas": "85940-29-0",
+      "supplier": "Hekserij",
+      "noteTier": "modifier",
+      "pricePerGram": 1.295,
+      "priceTiers": [
+        {
+          "grams": 10.0,
+          "price": 12.95
+        }
+      ],
+      "defaultDilution": 100.0,
+      "dilutionSolvent": "1%/10%",
+      "shelfLife": "sehr lange",
+      "characteristics": "akzenturiert Vanille und Holz, überraschende Effekte mit, Frucht, Blumen und Würze",
+      "isSolvent": false,
+      "createdAt": "2026-07-09T15:46:21",
+      "updatedAt": "2026-07-09T15:46:21"
+    },
+    {
+      "id": "imp-black-agar-givco-215-2",
+      "name": "Black Agar Givco 215/2",
+      "cas": "mix",
+      "manufacturer": "Givaudan",
+      "supplier": "perfumiarz",
+      "noteTier": "base",
+      "tierWeights": {
+        "base": 100
+      },
+      "pricePerGram": 2.04,
+      "priceTiers": [
+        {
+          "grams": 5.0,
+          "price": 10.2
+        }
+      ],
+      "defaultDilution": 100.0,
+      "characteristics": "Agarwood, tief, weich",
+      "isSolvent": false,
+      "createdAt": "2026-07-09T15:46:21",
+      "updatedAt": "2026-07-09T15:46:21"
+    },
+    {
+      "id": "imp-bornafix",
+      "name": "Bornafix",
+      "cas": "128119-70-0",
+      "manufacturer": "IFF",
+      "supplier": "Hekserij",
+      "noteTier": "base",
+      "tierWeights": {
+        "base": 100
+      },
+      "pricePerGram": 0.595,
+      "priceTiers": [
+        {
+          "grams": 10.0,
+          "price": 5.95
+        }
+      ],
+      "defaultDilution": 100.0,
+      "odorStrength": "nicht sehr stark",
+      "usageRate": "1-10%",
+      "shelfLife": "recht lange",
+      "characteristics": "Holzig, Amber, pudrig, verleiht Wärme und Tiefe, ähnlich IES aber grüner im Duft",
+      "isSolvent": false,
+      "createdAt": "2026-07-09T15:46:21",
+      "updatedAt": "2026-07-09T15:46:21"
+    },
+    {
+      "id": "imp-cade-eo-dampfdestillation",
+      "name": "Cade EO (Dampfdestillation)",
+      "cas": "90046-02-9",
+      "supplier": "Hekserij",
+      "noteTier": "modifier",
+      "defaultDilution": 100.0,
+      "characteristics": "rauchig, würzig, pfeffer, passt zu leder und Tabak",
+      "isSolvent": false,
+      "createdAt": "2026-07-09T15:46:21",
+      "updatedAt": "2026-07-09T15:46:21"
+    },
+    {
+      "id": "imp-calone",
+      "name": "Calone",
+      "cas": "28940-11-6",
+      "manufacturer": "Firmenich",
+      "supplier": "scentfriends",
+      "noteTier": "base",
+      "tierWeights": {
+        "base": 100
+      },
+      "pricePerGram": 1.58,
+      "priceTiers": [
+        {
+          "grams": 5.0,
+          "price": 7.9
+        }
+      ],
+      "defaultDilution": 10.0,
+      "dilutionSolvent": "10% DPG, IPM, TEC",
+      "odorStrength": "stark",
+      "usageRate": "0,1-2%",
+      "shelfLife": "recht lange",
+      "purchaseDate": "2026-04",
+      "characteristics": "Algen, Meerwasser, Ozon, Melone, Frisch, gute kombination mit Lilie und Alpenveilchen",
+      "isSolvent": false,
+      "createdAt": "2026-07-09T15:46:21",
+      "updatedAt": "2026-07-09T15:46:21"
+    },
+    {
+      "id": "imp-cantryl",
+      "name": "Cantryl",
+      "cas": "15373-31-6",
+      "manufacturer": "Symrise",
+      "supplier": "perfumiarz",
+      "noteTier": "top",
+      "tierWeights": {
+        "top": 100
+      },
+      "pricePerGram": 1.0,
+      "priceTiers": [
+        {
+          "grams": 5.0,
+          "price": 5.0
+        }
+      ],
+      "defaultDilution": 100.0,
+      "characteristics": "feuchtes Unterholz, moosig, krautig, nasse Pinie, top-note-booster, stärkt Lavendel, Rosmarin, Salbei, verleiht Veilchenblatt, Zitrus und Tanne Natürlichkeit",
+      "isSolvent": false,
+      "createdAt": "2026-07-09T15:46:21",
+      "updatedAt": "2026-07-09T15:46:21"
+    },
+    {
+      "id": "imp-cardamom-seed-adr-eo",
+      "name": "Cardamom Seed ADR EO",
+      "cas": "85940-32-5",
+      "supplier": "Hekserij",
+      "noteTier": "top",
+      "tierWeights": {
+        "top": 70,
+        "heart": 30
+      },
+      "pricePerGram": 2.495,
+      "priceTiers": [
+        {
+          "grams": 10.0,
+          "price": 24.95
+        }
+      ],
+      "defaultDilution": 10.0,
+      "dilutionSolvent": "10% DPG",
+      "odorStrength": "recht stark",
+      "usageRate": "0,1-2%",
+      "shelfLife": "recht lange",
+      "characteristics": "metallisch, würzig, gut mit Amber, Leder,",
+      "isSolvent": false,
+      "createdAt": "2026-07-09T15:46:21",
+      "updatedAt": "2026-07-09T15:46:21"
+    },
+    {
+      "id": "imp-cashmeran-velvet",
+      "name": "Cashmeran Velvet",
+      "cas": "mix",
+      "manufacturer": "IFF",
+      "supplier": "Hekserij",
+      "noteTier": "base",
+      "tierWeights": {
+        "base": 70,
+        "heart": 30
+      },
+      "pricePerGram": 0.695,
+      "priceTiers": [
+        {
+          "grams": 10.0,
+          "price": 6.95
+        }
+      ],
+      "defaultDilution": 100.0,
+      "dilutionSolvent": "0.5",
+      "shelfLife": "recht lange",
+      "characteristics": "süss, musky, Amber, Holz, Zeder, verstärkt Moschus Akkorde, verstärkt Diffusion",
+      "isSolvent": false,
+      "createdAt": "2026-07-09T15:46:21",
+      "updatedAt": "2026-07-09T15:46:21"
+    },
+    {
+      "id": "imp-cassis-base-345b",
+      "name": "Cassis Base 345B",
+      "cas": "mix",
+      "manufacturer": "Firmenich",
+      "supplier": "scentfriends",
+      "noteTier": "top",
+      "tierWeights": {
+        "top": 70,
+        "heart": 30
+      },
+      "pricePerGram": 1.58,
+      "priceTiers": [
+        {
+          "grams": 5.0,
+          "price": 7.9
+        }
+      ],
+      "defaultDilution": 100.0,
+      "odorStrength": "recht stark",
+      "usageRate": "0,1-10%",
+      "shelfLife": "kurz",
+      "purchaseDate": "2026-04",
+      "characteristics": "fruchtig, grün, sauer, Johannisbeere,",
+      "isSolvent": false,
+      "createdAt": "2026-07-09T15:46:21",
+      "updatedAt": "2026-07-09T15:46:21"
+    },
+    {
+      "id": "imp-castoreum-synth",
+      "name": "Castoreum Synth",
+      "cas": "mix",
+      "manufacturer": "Firmenich",
+      "supplier": "perfumiarz",
+      "noteTier": "base",
+      "tierWeights": {
+        "base": 70,
+        "heart": 30
+      },
+      "pricePerGram": 2.4,
+      "priceTiers": [
+        {
+          "grams": 2.5,
+          "price": 6.0
+        }
+      ],
+      "defaultDilution": 100.0,
+      "dilutionSolvent": "1%/10%",
+      "odorStrength": "stark",
+      "shelfLife": "recht lange",
+      "characteristics": "animalisch, rauchig, Leder",
+      "isSolvent": false,
+      "createdAt": "2026-07-09T15:46:21",
+      "updatedAt": "2026-07-09T15:46:21"
+    },
+    {
+      "id": "imp-cedroxyde",
+      "name": "Cedroxyde",
+      "cas": "71735-79-0",
+      "manufacturer": "Firmenich",
+      "supplier": "Hekserij",
+      "noteTier": "base",
+      "tierWeights": {
+        "base": 100
+      },
+      "pricePerGram": 0.695,
+      "priceTiers": [
+        {
+          "grams": 10.0,
+          "price": 6.95
+        }
+      ],
+      "defaultDilution": 25.0,
+      "dilutionSolvent": "25% IPM",
+      "odorStrength": "recht stark",
+      "shelfLife": "recht lange",
+      "characteristics": "trocken-holzig, Zeder, trockener als Cedramber, amberiger als Norlimbanol, gut mit IES, Ambroxan und Holz-Amber Komponenten",
+      "isSolvent": false,
+      "createdAt": "2026-07-09T15:46:21",
+      "updatedAt": "2026-07-09T15:46:21"
+    },
+    {
+      "id": "imp-cedarwood-china",
+      "name": "Cedarwood China",
+      "noteTier": "modifier",
+      "defaultDilution": 100.0,
+      "isSolvent": false,
+      "createdAt": "2026-07-09T15:46:21",
+      "updatedAt": "2026-07-09T15:46:21"
+    },
+    {
+      "id": "imp-cedarwood-virginia",
+      "name": "Cedarwood Virginia",
+      "noteTier": "modifier",
+      "defaultDilution": 100.0,
+      "isSolvent": false,
+      "createdAt": "2026-07-09T15:46:21",
+      "updatedAt": "2026-07-09T15:46:21"
+    },
+    {
+      "id": "imp-chamomile-flower-co2",
+      "name": "Chamomile flower CO2",
+      "cas": "84082-60-0",
+      "supplier": "Hekserij",
+      "noteTier": "top",
+      "tierWeights": {
+        "top": 70,
+        "heart": 30
+      },
+      "defaultDilution": 100.0,
+      "usageRate": "0.1",
+      "characteristics": "bitter, grün, würzig, Kamille",
+      "isSolvent": false,
+      "createdAt": "2026-07-09T15:46:21",
+      "updatedAt": "2026-07-09T15:46:21"
+    },
+    {
+      "id": "imp-cis-3-hexenol",
+      "name": "Cis-3-hexenol",
+      "cas": "928-96-1",
+      "manufacturer": "Bedoukian",
+      "supplier": "perfumiarz",
+      "noteTier": "top",
+      "tierWeights": {
+        "top": 100
+      },
+      "pricePerGram": 1.0,
+      "priceTiers": [
+        {
+          "grams": 5.0,
+          "price": 5.0
+        }
+      ],
+      "defaultDilution": 100.0,
+      "dilutionSolvent": "1%/10% ETH/DPG/TEC",
+      "odorStrength": "stark",
+      "usageRate": "<1%",
+      "shelfLife": "recht lange",
+      "purchaseDate": "2026-05-01",
+      "characteristics": "grün, Gras, frisch, Sepal Aspekt bei Lilien,Zitronenblüte,",
+      "isSolvent": false,
+      "createdAt": "2026-07-09T15:46:21",
+      "updatedAt": "2026-07-09T15:46:21"
+    },
+    {
+      "id": "imp-citronellol-laevo",
+      "name": "Citronellol LAEVO",
+      "supplier": "perfumiarz",
+      "noteTier": "modifier",
+      "defaultDilution": 100.0,
+      "isSolvent": false,
+      "createdAt": "2026-07-09T15:46:21",
+      "updatedAt": "2026-07-09T15:46:21"
+    },
+    {
+      "id": "imp-civette-synth-10-dpg",
+      "name": "Civette Synth 10% DPG",
+      "cas": "mix",
+      "supplier": "Hekserij",
+      "noteTier": "base",
+      "tierWeights": {
+        "base": 100
+      },
+      "pricePerGram": 0.495,
+      "priceTiers": [
+        {
+          "grams": 5.0,
+          "price": 3.9
+        },
+        {
+          "grams": 10.0,
+          "price": 4.95
+        }
+      ],
+      "defaultDilution": 1.0,
+      "dilutionSolvent": "1% DPG",
+      "odorStrength": "stark",
+      "shelfLife": "recht lange",
+      "characteristics": "animalisch, fäkal",
+      "isSolvent": false,
+      "createdAt": "2026-07-09T15:46:21",
+      "updatedAt": "2026-07-09T15:46:21"
+    },
+    {
+      "id": "imp-clearwood-prisma-50-ipm",
+      "name": "Clearwood Prisma 50% IPM",
+      "cas": "5986-55-0",
+      "manufacturer": "Firmenich",
+      "supplier": "perfumiarz",
+      "noteTier": "base",
+      "tierWeights": {
+        "base": 100
+      },
+      "pricePerGram": 0.7,
+      "priceTiers": [
+        {
+          "grams": 5.0,
+          "price": 4.0
+        },
+        {
+          "grams": 10.0,
+          "price": 7.0
+        }
+      ],
+      "defaultDilution": 20.0,
+      "dilutionSolvent": "20% DPG, IPM, Alc",
+      "odorStrength": "mittel",
+      "shelfLife": "recht lange",
+      "isSolvent": false,
+      "createdAt": "2026-07-09T15:46:21",
+      "updatedAt": "2026-07-09T15:46:21"
+    },
+    {
+      "id": "imp-cordoban-leather-base",
+      "name": "Cordoban Leather Base",
+      "cas": "mix",
+      "supplier": "scentfriends",
+      "noteTier": "base",
+      "tierWeights": {
+        "base": 100
+      },
+      "pricePerGram": 0.78,
+      "priceTiers": [
+        {
+          "grams": 5.0,
+          "price": 3.9
+        }
+      ],
+      "defaultDilution": 100.0,
+      "characteristics": "Leder, Pferdeleder",
+      "isSolvent": false,
+      "createdAt": "2026-07-09T15:46:21",
+      "updatedAt": "2026-07-09T15:46:21"
+    },
+    {
+      "id": "imp-coriander-leaf-oil-extra",
+      "name": "Coriander Leaf Oil Extra",
+      "cas": "8008-52-4",
+      "manufacturer": "Payan Bertrand",
+      "supplier": "perfumiarz",
+      "noteTier": "top",
+      "tierWeights": {
+        "top": 100
+      },
+      "defaultDilution": 100.0,
+      "odorStrength": "recht stark",
+      "characteristics": "grün-aldehyde, krautig, wächsern, frisch, kalt, gut mit Zitrus, Lavendel, Salbei, aquatik, öffnet",
+      "isSolvent": false,
+      "createdAt": "2026-07-09T15:46:21",
+      "updatedAt": "2026-07-09T15:46:21"
+    },
+    {
+      "id": "imp-corps-pamplemousse-1-tec",
+      "name": "Corps Pamplemousse 1% TEC",
+      "cas": "68921-26-6",
+      "supplier": "perfumiarz",
+      "noteTier": "base",
+      "tierWeights": {
+        "base": 100
+      },
+      "pricePerGram": 1.0,
+      "priceTiers": [
+        {
+          "grams": 5.0,
+          "price": 5.0
+        }
+      ],
+      "defaultDilution": 100.0,
+      "dilutionSolvent": "0.1-0,01%",
+      "usageRate": "0.00035000000000000005",
+      "purchaseDate": "2026-05-01",
+      "characteristics": "Grapefruit, intensiv, zitrisch, Sulfur, tropisch, sauer, bitter, scharf, Hauch Minze, Johannisbeere, holzig, krautig, grün",
+      "isSolvent": false,
+      "createdAt": "2026-07-09T15:46:21",
+      "updatedAt": "2026-07-09T15:46:21"
+    },
+    {
+      "id": "imp-cuir-md",
+      "name": "Cuir MD",
+      "cas": "74113-74-9",
+      "manufacturer": "Firmenich",
+      "supplier": "scentfriends",
+      "noteTier": "heart",
+      "tierWeights": {
+        "heart": 70,
+        "base": 30
+      },
+      "pricePerGram": 1.98,
+      "priceTiers": [
+        {
+          "grams": 5.0,
+          "price": 9.9
+        }
+      ],
+      "defaultDilution": 100.0,
+      "odorStrength": "stark",
+      "shelfLife": "lange",
+      "characteristics": "rauchig, Leder",
+      "isSolvent": false,
+      "createdAt": "2026-07-09T15:46:21",
+      "updatedAt": "2026-07-09T15:46:21"
+    },
+    {
+      "id": "imp-cypriol-eo",
+      "name": "Cypriol EO",
+      "cas": "91771-62-9",
+      "manufacturer": "IFF",
+      "supplier": "perfumiarz",
+      "noteTier": "base",
+      "tierWeights": {
+        "base": 100
+      },
+      "defaultDilution": 10.0,
+      "dilutionSolvent": "10% TEC",
+      "odorStrength": "recht stark",
+      "usageRate": "0,1-3%",
+      "shelfLife": "recht lange",
+      "characteristics": "gut mit Leder, Holz (Sandelholz, Oud, Vanilla Modifier",
+      "isSolvent": false,
+      "createdAt": "2026-07-09T15:46:21",
+      "updatedAt": "2026-07-09T15:46:21"
+    },
+    {
+      "id": "imp-davana-oil-extra",
+      "name": "Davana Oil Extra",
+      "cas": "8016-03-3",
+      "manufacturer": "Payan Bertrand",
+      "supplier": "perfumiarz",
+      "noteTier": "heart",
+      "tierWeights": {
+        "heart": 100
+      },
+      "pricePerGram": 4.0,
+      "priceTiers": [
+        {
+          "grams": 2.5,
+          "price": 10.0
+        }
+      ],
+      "defaultDilution": 100.0,
+      "characteristics": "süss, fruchtig, likörig, kräuterig, Tee, warm, Honig, Trockenfrüchte",
+      "isSolvent": false,
+      "createdAt": "2026-07-09T15:46:21",
+      "updatedAt": "2026-07-09T15:46:21"
+    },
+    {
+      "id": "imp-delta-decalactone",
+      "name": "Delta Decalactone",
+      "cas": "705-86-2",
+      "manufacturer": "Firmenich",
+      "supplier": "perfumiarz",
+      "noteTier": "base",
+      "tierWeights": {
+        "base": 100
+      },
+      "pricePerGram": 0.6,
+      "priceTiers": [
+        {
+          "grams": 5.0,
+          "price": 4.0
+        },
+        {
+          "grams": 10.0,
+          "price": 6.0
+        }
+      ],
+      "defaultDilution": 100.0,
+      "characteristics": "süss, milchig, buttrig, fruchtig, warm, Cocos",
+      "isSolvent": false,
+      "createdAt": "2026-07-09T15:46:21",
+      "updatedAt": "2026-07-09T15:46:21"
+    },
+    {
+      "id": "imp-dimethyl-octenone",
+      "name": "Dimethyl Octenone",
+      "cas": "2550-11-0",
+      "manufacturer": "Givaudan",
+      "supplier": "perfumiarz",
+      "noteTier": "top",
+      "tierWeights": {
+        "top": 100
+      },
+      "pricePerGram": 0.7,
+      "priceTiers": [
+        {
+          "grams": 10.0,
+          "price": 7.0
+        }
+      ],
+      "defaultDilution": 100.0,
+      "purchaseDate": "2026-05-01",
+      "characteristics": "Grapefruit, Zitrus, bitter, frisch, saftig, minzig, diffusiv",
+      "isSolvent": false,
+      "createdAt": "2026-07-09T15:46:21",
+      "updatedAt": "2026-07-09T15:46:21"
+    },
+    {
+      "id": "imp-ebanol",
+      "name": "Ebanol",
+      "cas": "67801-20-1",
+      "manufacturer": "Givaudan",
+      "noteTier": "base",
+      "tierWeights": {
+        "base": 100
+      },
+      "pricePerGram": 0.595,
+      "priceTiers": [
+        {
+          "grams": 10.0,
+          "price": 5.95
+        }
+      ],
+      "defaultDilution": 100.0,
+      "usageRate": "0,5-5%",
+      "characteristics": "Sandelholz, dicht, warm, natürlich, musky, milchig, diffusiv",
+      "isSolvent": false,
+      "createdAt": "2026-07-09T15:46:21",
+      "updatedAt": "2026-07-09T15:46:21"
+    },
+    {
+      "id": "imp-ethyl-maltol",
+      "name": "Ethyl Maltol",
+      "cas": "4940-11-8",
+      "supplier": "Hekserij",
+      "noteTier": "base",
+      "tierWeights": {
+        "base": 100
+      },
+      "pricePerGram": 0.495,
+      "priceTiers": [
+        {
+          "grams": 10.0,
+          "price": 4.95
+        }
+      ],
+      "defaultDilution": 10.0,
+      "dilutionSolvent": "10% DPG",
+      "odorStrength": "recht stark",
+      "isSolvent": false,
+      "createdAt": "2026-07-09T15:46:21",
+      "updatedAt": "2026-07-09T15:46:21"
+    },
+    {
+      "id": "imp-ethyl-tiglate",
+      "name": "Ethyl Tiglate",
+      "cas": "5837-78-5",
+      "supplier": "perfumiarz",
+      "noteTier": "heart",
+      "tierWeights": {
+        "heart": 100
+      },
+      "defaultDilution": 100.0,
+      "characteristics": "Complex, fruchtig-caramel, warm, nussig, gebackener Apfel, im Drydown grüne Olive, gourmandig",
+      "isSolvent": false,
+      "createdAt": "2026-07-09T15:46:21",
+      "updatedAt": "2026-07-09T15:46:21"
+    },
+    {
+      "id": "imp-ethylene-brassilate",
+      "name": "Ethylene Brassilate",
+      "cas": "105-95-3",
+      "supplier": "Hekserij",
+      "noteTier": "base",
+      "tierWeights": {
+        "base": 100
+      },
+      "pricePerGram": 0.395,
+      "priceTiers": [
+        {
+          "grams": 5.0,
+          "price": 4.0
+        },
+        {
+          "grams": 10.0,
+          "price": 3.95
+        }
+      ],
+      "defaultDilution": 100.0,
+      "odorStrength": "nicht sehr stark",
+      "characteristics": "süss, pudrig, animalisch, gut mit Galaxolide o.Ä., macrocyclisch",
+      "isSolvent": false,
+      "createdAt": "2026-07-09T15:46:21",
+      "updatedAt": "2026-07-09T15:46:21"
+    },
+    {
+      "id": "imp-eucalyptus-globulus-eo",
+      "name": "Eucalyptus globulus EO",
+      "cas": "84625-32-1",
+      "supplier": "Hekserij",
+      "noteTier": "top",
+      "tierWeights": {
+        "top": 100
+      },
+      "pricePerGram": 0.695,
+      "priceTiers": [
+        {
+          "grams": 10.0,
+          "price": 6.95
+        }
+      ],
+      "defaultDilution": 100.0,
+      "usageRate": "0.08",
+      "characteristics": "Zusatz von 0.1% BHT als Antioxidant kann sinnvol sein",
+      "isSolvent": false,
+      "createdAt": "2026-07-09T15:46:21",
+      "updatedAt": "2026-07-09T15:46:21"
+    },
+    {
+      "id": "imp-farnesol",
+      "name": "Farnesol",
+      "cas": "4602-84-0",
+      "supplier": "Hekserij",
+      "noteTier": "base",
+      "tierWeights": {
+        "base": 100
+      },
+      "pricePerGram": 0.895,
+      "priceTiers": [
+        {
+          "grams": 10.0,
+          "price": 8.95
+        }
+      ],
+      "defaultDilution": 100.0,
+      "odorStrength": "nicht sehr stark",
+      "characteristics": "Akazie, Linde, Lilie, süss mit grünen Aspekten, höher dosieren",
+      "isSolvent": false,
+      "createdAt": "2026-07-09T15:46:21",
+      "updatedAt": "2026-07-09T15:46:21"
+    },
+    {
+      "id": "imp-fixateur-505",
+      "name": "Fixateur 505",
+      "manufacturer": "Firmenich",
+      "supplier": "Hekserij",
+      "noteTier": "base",
+      "tierWeights": {
+        "base": 100
+      },
+      "pricePerGram": 1.99,
+      "priceTiers": [
+        {
+          "grams": 5.0,
+          "price": 9.95
+        }
+      ],
+      "defaultDilution": 10.0,
+      "dilutionSolvent": "10% TEC",
+      "odorStrength": "nicht sehr stark",
+      "usageRate": "<1%",
+      "shelfLife": "recht lange",
+      "characteristics": "Ambergris, süss, holzig, zitronig, Substitut für Ambergris",
+      "isSolvent": false,
+      "createdAt": "2026-07-09T15:46:21",
+      "updatedAt": "2026-07-09T15:46:21"
+    },
+    {
+      "id": "imp-florex",
+      "name": "Florex",
+      "cas": "69486-14-2",
+      "manufacturer": "Firmenich",
+      "supplier": "perfumiarz",
+      "noteTier": "base",
+      "tierWeights": {
+        "base": 100
+      },
+      "pricePerGram": 2.8,
+      "priceTiers": [
+        {
+          "grams": 2.5,
+          "price": 7.0
+        }
+      ],
+      "defaultDilution": 100.0,
+      "dilutionSolvent": "0.1",
+      "odorStrength": "recht stark",
+      "characteristics": "süss-würzig, Tonka, Tabak, Cocosnuss, gün, tangy, lang anhaltend",
+      "isSolvent": false,
+      "createdAt": "2026-07-09T15:46:21",
+      "updatedAt": "2026-07-09T15:46:21"
+    },
+    {
+      "id": "imp-frankincense-adr-eo",
+      "name": "Frankincense ADR EO",
+      "cas": "89957-98-2",
+      "supplier": "Hekserij",
+      "noteTier": "top",
+      "tierWeights": {
+        "top": 50,
+        "heart": 30,
+        "base": 20
+      },
+      "pricePerGram": 1.795,
+      "priceTiers": [
+        {
+          "grams": 10.0,
+          "price": 17.95
+        }
+      ],
+      "defaultDilution": 100.0,
+      "characteristics": "Boswellia serrata Somalia",
+      "isSolvent": false,
+      "createdAt": "2026-07-09T15:46:21",
+      "updatedAt": "2026-07-09T15:46:21"
+    },
+    {
+      "id": "imp-galbanum-res-super-50-eth",
+      "name": "Galbanum Res. Super 50% ETH",
+      "cas": "9000-24-2",
+      "manufacturer": "Firmenich",
+      "supplier": "perfumiarz",
+      "noteTier": "top",
+      "tierWeights": {
+        "top": 70,
+        "heart": 30
+      },
+      "pricePerGram": 0.7,
+      "priceTiers": [
+        {
+          "grams": 10.0,
+          "price": 7.0
+        }
+      ],
+      "defaultDilution": 100.0,
+      "usageRate": "0,5-3%",
+      "purchaseDate": "2026-05-01",
+      "characteristics": "intensiv grün, scharf, krautig, bitter, frisch, pfeffrig, holzig-balsamisch, erdig, waldig, Fixativ",
+      "isSolvent": false,
+      "createdAt": "2026-07-09T15:46:21",
+      "updatedAt": "2026-07-09T15:46:21"
+    },
+    {
+      "id": "imp-geranyl-tiglate",
+      "name": "Geranyl Tiglate",
+      "cas": "7785-33-3",
+      "manufacturer": "Symrise",
+      "supplier": "perfumiarz",
+      "noteTier": "top",
+      "tierWeights": {
+        "top": 100
+      },
+      "pricePerGram": 1.0,
+      "priceTiers": [
+        {
+          "grams": 5.0,
+          "price": 5.0
+        }
+      ],
+      "defaultDilution": 100.0,
+      "characteristics": "fruchtig, süss-herb, scharf, Geranium,",
+      "isSolvent": false,
+      "createdAt": "2026-07-09T15:46:21",
+      "updatedAt": "2026-07-09T15:46:21"
+    },
+    {
+      "id": "imp-guaiac-oil-crude-50-eth",
+      "name": "Guaiac Oil Crude 50% ETH",
+      "cas": "8016-23-7",
+      "manufacturer": "Firmenich",
+      "supplier": "perfumiarz",
+      "noteTier": "base",
+      "tierWeights": {
+        "base": 100
+      },
+      "pricePerGram": 0.6,
+      "priceTiers": [
+        {
+          "grams": 10.0,
+          "price": 6.0
+        }
+      ],
+      "defaultDilution": 100.0,
+      "characteristics": "holzig-milchig, weich, cremig, nobel, rauchig, würzig, gut mit Vetiver und Veilchen, Fixiert",
+      "isSolvent": false,
+      "createdAt": "2026-07-09T15:46:21",
+      "updatedAt": "2026-07-09T15:46:21"
+    },
+    {
+      "id": "imp-guaiacol",
+      "name": "Guaiacol",
+      "cas": "90-05-1",
+      "supplier": "Hekserij",
+      "noteTier": "base",
+      "tierWeights": {
+        "base": 100
+      },
+      "pricePerGram": 0.595,
+      "priceTiers": [
+        {
+          "grams": 10.0,
+          "price": 5.95
+        }
+      ],
+      "defaultDilution": 10.0,
+      "dilutionSolvent": "10% DPG",
+      "odorStrength": "stark",
+      "usageRate": "<0,5%",
+      "shelfLife": "recht lange",
+      "characteristics": "Holzfeuer, Leder, niedrige Dosis Hyacinthe, YlangYlang, Narzisse, Rose, höhere Dosis Leder etc.",
+      "isSolvent": false,
+      "createdAt": "2026-07-09T15:46:21",
+      "updatedAt": "2026-07-09T15:46:21"
+    },
+    {
+      "id": "imp-gurjun-balsam-malaysia",
+      "name": "Gurjun Balsam (Malaysia)",
+      "cas": "8030-55-5",
+      "manufacturer": "Biolandes",
+      "supplier": "perfumiarz",
+      "noteTier": "heart",
+      "tierWeights": {
+        "heart": 100
+      },
+      "pricePerGram": 1.4,
+      "priceTiers": [
+        {
+          "grams": 5.0,
+          "price": 7.0
+        }
+      ],
+      "defaultDilution": 100.0,
+      "odorStrength": "schwach",
+      "shelfLife": "lange",
+      "characteristics": "holzig, harzig, würzig, erdig, süss, Oleoresin,",
+      "isSolvent": false,
+      "createdAt": "2026-07-09T15:46:21",
+      "updatedAt": "2026-07-09T15:46:21"
+    },
+    {
+      "id": "imp-habanolide",
+      "name": "Habanolide",
+      "cas": "34902-57-3",
+      "manufacturer": "Firmenich",
+      "supplier": "scentfriends",
+      "noteTier": "base",
+      "tierWeights": {
+        "base": 100
+      },
+      "pricePerGram": 0.495,
+      "priceTiers": [
+        {
+          "grams": 5.0,
+          "price": 3.9
+        },
+        {
+          "grams": 10.0,
+          "price": 4.95
+        }
+      ],
+      "defaultDilution": 100.0,
+      "dilutionSolvent": "0.1",
+      "odorStrength": "recht stark",
+      "usageRate": "0,2-10%",
+      "characteristics": "Musk Accord mit Ethylene Brassilat, Zenolide,",
+      "isSolvent": false,
+      "createdAt": "2026-07-09T15:46:21",
+      "updatedAt": "2026-07-09T15:46:21"
+    },
+    {
+      "id": "imp-hedione",
+      "name": "Hedione",
+      "noteTier": "modifier",
+      "defaultDilution": 100.0,
+      "isSolvent": false,
+      "createdAt": "2026-07-09T15:46:21",
+      "updatedAt": "2026-07-09T15:46:21"
+    },
+    {
+      "id": "imp-hedione-hc",
+      "name": "Hedione HC",
+      "cas": "24851-98-7",
+      "manufacturer": "Firmenich",
+      "supplier": "perfumiarz",
+      "noteTier": "heart",
+      "tierWeights": {
+        "heart": 70,
+        "base": 30
+      },
+      "pricePerGram": 0.8,
+      "priceTiers": [
+        {
+          "grams": 5.0,
+          "price": 5.0
+        },
+        {
+          "grams": 10.0,
+          "price": 8.0
+        }
+      ],
+      "defaultDilution": 100.0,
+      "odorStrength": "schwach",
+      "characteristics": "floral, Jasmin, sauber, frisch, gibt Raum, volatil, erweitert die Frische",
+      "isSolvent": false,
+      "createdAt": "2026-07-09T15:46:21",
+      "updatedAt": "2026-07-09T15:46:21"
+    },
+    {
+      "id": "imp-immortele-abs-50-tec",
+      "name": "Immortele Abs 50% TEC",
+      "cas": "90045-56-0",
+      "manufacturer": "Firmenich",
+      "supplier": "perfumiarz",
+      "noteTier": "modifier",
+      "pricePerGram": 3.6,
+      "priceTiers": [
+        {
+          "grams": 2.5,
+          "price": 9.0
+        }
+      ],
+      "defaultDilution": 100.0,
+      "characteristics": "floral, krautig, Honig, Tabak, rustikal, warm, likörig, Heu und Leder, langanhaltend",
+      "isSolvent": false,
+      "createdAt": "2026-07-09T15:46:21",
+      "updatedAt": "2026-07-09T15:46:21"
+    },
+    {
+      "id": "imp-ionone-beta",
+      "name": "Ionone Beta",
+      "cas": "79-77-6",
+      "supplier": "scentfriends",
+      "noteTier": "heart",
+      "tierWeights": {
+        "heart": 70,
+        "base": 30
+      },
+      "pricePerGram": 0.78,
+      "priceTiers": [
+        {
+          "grams": 5.0,
+          "price": 3.9
+        }
+      ],
+      "defaultDilution": 100.0,
+      "odorStrength": "nicht sehr stark",
+      "usageRate": "0,1-20%",
+      "shelfLife": "vernünftig",
+      "purchaseDate": "2026-04",
+      "characteristics": "floral, pudrig, Veilchen, erdig, dunkle Beeren, kommt in Akazie und Osmanthus vor,",
+      "isSolvent": false,
+      "createdAt": "2026-07-09T15:46:21",
+      "updatedAt": "2026-07-09T15:46:21"
+    },
+    {
+      "id": "imp-iso-e-super",
+      "name": "Iso E Super",
+      "manufacturer": "IFF",
+      "noteTier": "modifier",
+      "defaultDilution": 100.0,
+      "isSolvent": false,
+      "createdAt": "2026-07-09T15:46:21",
+      "updatedAt": "2026-07-09T15:46:21"
+    },
+    {
+      "id": "imp-isobutyl-quinoline",
+      "name": "Isobutyl Quinoline",
+      "cas": "65442-31-1",
+      "manufacturer": "Symrise",
+      "noteTier": "heart",
+      "tierWeights": {
+        "heart": 100
+      },
+      "pricePerGram": 1.295,
+      "priceTiers": [
+        {
+          "grams": 5.0,
+          "price": 7.0
+        },
+        {
+          "grams": 10.0,
+          "price": 12.95
+        }
+      ],
+      "defaultDilution": 100.0,
+      "dilutionSolvent": "1%/10%",
+      "odorStrength": "stark",
+      "usageRate": "-0.05",
+      "shelfLife": "recht lange",
+      "characteristics": "Leder, Saffran, Hazelnuss, moosig, gut mit Vetiver und grünen Düften",
+      "isSolvent": false,
+      "createdAt": "2026-07-09T15:46:21",
+      "updatedAt": "2026-07-09T15:46:21"
+    },
+    {
+      "id": "imp-javanol",
+      "name": "Javanol",
+      "cas": "198404-98-7",
+      "manufacturer": "Givaudan",
+      "supplier": "Hekserij",
+      "noteTier": "base",
+      "tierWeights": {
+        "base": 100
+      },
+      "pricePerGram": 3.2,
+      "priceTiers": [
+        {
+          "grams": 1.0,
+          "price": 7.95
+        },
+        {
+          "grams": 2.5,
+          "price": 8.0
+        }
+      ],
+      "defaultDilution": 100.0,
+      "dilutionSolvent": "1%/10%/20% DPG",
+      "characteristics": "Sandelholz, cremig, holzig, süss, fruchtig, warm, stärker in Verdünnung",
+      "isSolvent": false,
+      "createdAt": "2026-07-09T15:46:21",
+      "updatedAt": "2026-07-09T15:46:21"
+    },
+    {
+      "id": "imp-kephalis",
+      "name": "Kephalis",
+      "cas": "36306-87-3",
+      "manufacturer": "Givaudan",
+      "supplier": "perfumiarz",
+      "noteTier": "heart",
+      "tierWeights": {
+        "heart": 70,
+        "base": 30
+      },
+      "pricePerGram": 0.795,
+      "priceTiers": [
+        {
+          "grams": 5.0,
+          "price": 5.0
+        },
+        {
+          "grams": 10.0,
+          "price": 7.95
+        }
+      ],
+      "defaultDilution": 100.0,
+      "odorStrength": "nicht sehr stark",
+      "usageRate": "1-15%",
+      "shelfLife": "recht lange",
+      "characteristics": "holzig, Tabak, reich, Agarwood, frisch, vielseitig",
+      "isSolvent": false,
+      "createdAt": "2026-07-09T15:46:21",
+      "updatedAt": "2026-07-09T15:46:21"
+    },
+    {
+      "id": "imp-koavone",
+      "name": "Koavone",
+      "cas": "81786-73-4",
+      "manufacturer": "IFF",
+      "supplier": "perfumiarz",
+      "noteTier": "top",
+      "tierWeights": {
+        "top": 70,
+        "heart": 30
+      },
+      "pricePerGram": 0.495,
+      "priceTiers": [
+        {
+          "grams": 5.0,
+          "price": 4.0
+        },
+        {
+          "grams": 10.0,
+          "price": 4.95
+        }
+      ],
+      "defaultDilution": 100.0,
+      "odorStrength": "nicht sehr stark",
+      "usageRate": "0,1-10%",
+      "shelfLife": "recht lange",
+      "characteristics": "erinnert an Iris und Ionone, Veilchen, floral, vielseitig, komplex, pudrig, gibt Volumen und Diffusion",
+      "isSolvent": false,
+      "createdAt": "2026-07-09T15:46:21",
+      "updatedAt": "2026-07-09T15:46:21"
+    },
+    {
+      "id": "imp-labdanum-res-45-tec",
+      "name": "Labdanum res. 45% TEC",
+      "supplier": "Hekserij",
+      "noteTier": "base",
+      "tierWeights": {
+        "base": 100
+      },
+      "pricePerGram": 0.795,
+      "priceTiers": [
+        {
+          "grams": 10.0,
+          "price": 7.95
+        }
+      ],
+      "defaultDilution": 100.0,
+      "odorStrength": "recht stark",
+      "usageRate": "0,1-10%",
+      "shelfLife": "recht lange",
+      "characteristics": "fruchtig, gut mit Vanillin, guter Fixateur",
+      "isSolvent": false,
+      "createdAt": "2026-07-09T15:46:21",
+      "updatedAt": "2026-07-09T15:46:21"
+    },
+    {
+      "id": "imp-lavandin-abrialis-eo",
+      "name": "Lavandin Abrialis EO",
+      "cas": "93455-96-0",
+      "supplier": "Hekserij",
+      "noteTier": "top",
+      "tierWeights": {
+        "top": 70,
+        "heart": 30
+      },
+      "pricePerGram": 0.595,
+      "priceTiers": [
+        {
+          "grams": 10.0,
+          "price": 5.95
+        }
+      ],
+      "defaultDilution": 100.0,
+      "odorStrength": "nicht sehr stark",
+      "usageRate": "0,1-10%",
+      "shelfLife": "recht lange",
+      "characteristics": "grün, floral, würzig, weniger floral als franz. Lavendel, etwas Camphor",
+      "isSolvent": false,
+      "createdAt": "2026-07-09T15:46:21",
+      "updatedAt": "2026-07-09T15:46:21"
+    },
+    {
+      "id": "imp-lavender-bulgaria-eo",
+      "name": "Lavender Bulgaria EO",
+      "cas": "90063-37-9",
+      "supplier": "Hekserij",
+      "noteTier": "top",
+      "tierWeights": {
+        "top": 100
+      },
+      "pricePerGram": 0.795,
+      "priceTiers": [
+        {
+          "grams": 10.0,
+          "price": 7.95
+        }
+      ],
+      "defaultDilution": 100.0,
+      "odorStrength": "mittel stark",
+      "usageRate": "0,1-30%",
+      "shelfLife": "recht lange",
+      "characteristics": "gut mit Kräutern, Moos, Holz, frischer/würziger als franz. Lavendel",
+      "isSolvent": false,
+      "createdAt": "2026-07-09T15:46:21",
+      "updatedAt": "2026-07-09T15:46:21"
+    },
+    {
+      "id": "imp-leather-oud",
+      "name": "Leather Oud",
+      "cas": "mix",
+      "manufacturer": "Firmenich",
+      "supplier": "perfumiarz",
+      "noteTier": "modifier",
+      "pricePerGram": 3.2,
+      "priceTiers": [
+        {
+          "grams": 2.5,
+          "price": 8.0
+        }
+      ],
+      "defaultDilution": 100.0,
+      "characteristics": "animalisch, Pferd, Leder, Oud, holzig, schwer, fäkal",
+      "isSolvent": false,
+      "createdAt": "2026-07-09T15:46:21",
+      "updatedAt": "2026-07-09T15:46:21"
+    },
+    {
+      "id": "imp-lindenol-terpineol",
+      "name": "Lindenol (α-terpineol)",
+      "cas": "98-55-5",
+      "manufacturer": "IFF",
+      "supplier": "perfumiarz",
+      "noteTier": "modifier",
+      "pricePerGram": 1.2,
+      "priceTiers": [
+        {
+          "grams": 5.0,
+          "price": 6.0
+        }
+      ],
+      "defaultDilution": 100.0,
+      "characteristics": "Terpentin, floral, Lindenblüte, Conifäre, harzig, kalt, frisch",
+      "isSolvent": false,
+      "createdAt": "2026-07-09T15:46:21",
+      "updatedAt": "2026-07-09T15:46:21"
+    },
+    {
+      "id": "imp-mahagonate",
+      "name": "Mahagonate",
+      "cas": "68966-86-9",
+      "manufacturer": "Symrise",
+      "supplier": "Hekserij",
+      "noteTier": "top",
+      "tierWeights": {
+        "top": 70,
+        "heart": 30
+      },
+      "pricePerGram": 0.695,
+      "priceTiers": [
+        {
+          "grams": 10.0,
+          "price": 6.95
+        }
+      ],
+      "defaultDilution": 100.0,
+      "dilutionSolvent": "Alcohol",
+      "characteristics": "holzig, pfeffrig, Patchouli, frisch, Camphor,Minze, etwas pudrig, vielseitig, gut mit iris, lavendel",
+      "isSolvent": false,
+      "createdAt": "2026-07-09T15:46:21",
+      "updatedAt": "2026-07-09T15:46:21"
+    },
+    {
+      "id": "imp-methyl-acetophenone",
+      "name": "Methyl Acetophenone",
+      "cas": "122-00-9",
+      "manufacturer": "Symrise",
+      "supplier": "Hekserij",
+      "noteTier": "top",
+      "tierWeights": {
+        "top": 70,
+        "heart": 30
+      },
+      "pricePerGram": 0.395,
+      "priceTiers": [
+        {
+          "grams": 10.0,
+          "price": 3.95
+        }
+      ],
+      "defaultDilution": 100.0,
+      "dilutionSolvent": "10-25% DPG",
+      "odorStrength": "stark",
+      "shelfLife": "recht lange",
+      "characteristics": "besser in Verdünnung, frisch, würzig, weisse Blüten, Weissdorn, Akazie, Flieder, (Leder)",
+      "isSolvent": false,
+      "createdAt": "2026-07-09T15:46:21",
+      "updatedAt": "2026-07-09T15:46:21"
+    },
+    {
+      "id": "imp-muscenone",
+      "name": "Muscenone",
+      "cas": "82356-51-2",
+      "manufacturer": "Firmenich",
+      "supplier": "scentfriends",
+      "noteTier": "modifier",
+      "pricePerGram": 2.58,
+      "priceTiers": [
+        {
+          "grams": 5.0,
+          "price": 12.9
+        }
+      ],
+      "defaultDilution": 100.0,
+      "dilutionSolvent": "0.1",
+      "odorStrength": "stark",
+      "shelfLife": "lange",
+      "characteristics": "Nitro Musk, Booster, schwere Düfte, gut mit Rose, Jasmin, Veilchen",
+      "isSolvent": false,
+      "createdAt": "2026-07-09T15:46:21",
+      "updatedAt": "2026-07-09T15:46:21"
+    },
+    {
+      "id": "imp-myrrhe",
+      "name": "Myrrhe",
+      "noteTier": "modifier",
+      "defaultDilution": 100.0,
+      "isSolvent": false,
+      "createdAt": "2026-07-09T15:46:21",
+      "updatedAt": "2026-07-09T15:46:21"
+    },
+    {
+      "id": "imp-nerolidol",
+      "name": "Nerolidol",
+      "cas": "7212-44-4",
+      "supplier": "Hekserij",
+      "noteTier": "heart",
+      "tierWeights": {
+        "heart": 70,
+        "base": 30
+      },
+      "pricePerGram": 0.495,
+      "priceTiers": [
+        {
+          "grams": 10.0,
+          "price": 4.95
+        }
+      ],
+      "defaultDilution": 100.0,
+      "odorStrength": "schwach",
+      "usageRate": "0,1-10%",
+      "shelfLife": "recht lange",
+      "characteristics": "Orangenblüte, würzig, frish, gut mit Blütendüften und Holz, fixierend",
+      "isSolvent": false,
+      "createdAt": "2026-07-09T15:46:21",
+      "updatedAt": "2026-07-09T15:46:21"
+    },
+    {
+      "id": "imp-nelkenknospe",
+      "name": "Nelkenknospe",
+      "noteTier": "modifier",
+      "defaultDilution": 100.0,
+      "isSolvent": false,
+      "createdAt": "2026-07-09T15:46:21",
+      "updatedAt": "2026-07-09T15:46:21"
+    },
+    {
+      "id": "imp-norlimbanol",
+      "name": "Norlimbanol",
+      "cas": "70788-30-6",
+      "manufacturer": "Firmenich",
+      "supplier": "Hekserij",
+      "noteTier": "base",
+      "tierWeights": {
+        "base": 100
+      },
+      "pricePerGram": 0.895,
+      "priceTiers": [
+        {
+          "grams": 10.0,
+          "price": 8.95
+        }
+      ],
+      "defaultDilution": 10.0,
+      "dilutionSolvent": "10% DEP IPM",
+      "odorStrength": "stark",
+      "usageRate": "max 2%",
+      "characteristics": "trocken, Zeder, holzig, etwas animalisch, etwas Patchouli",
+      "isSolvent": false,
+      "createdAt": "2026-07-09T15:46:21",
+      "updatedAt": "2026-07-09T15:46:21"
+    },
+    {
+      "id": "imp-nootkatone-85-87",
+      "name": "Nootkatone 85-87%",
+      "cas": "4674-50-4",
+      "manufacturer": "IFF",
+      "supplier": "perfumiarz",
+      "noteTier": "heart",
+      "tierWeights": {
+        "heart": 70,
+        "base": 30
+      },
+      "pricePerGram": 10.0,
+      "priceTiers": [
+        {
+          "grams": 1.0,
+          "price": 10.0
+        }
+      ],
+      "defaultDilution": 100.0,
+      "purchaseDate": "2026-05-01",
+      "characteristics": "Grapefruit, sauer, bitter,etwas holzig, intensiv, saftig, langanhaltend, bitter, leuchtend, gut mit:Vetiver, Zeder, Bergamotte, Rhabarber",
+      "isSolvent": false,
+      "createdAt": "2026-07-09T15:46:21",
+      "updatedAt": "2026-07-09T15:46:21"
+    },
+    {
+      "id": "imp-oak-moss-abs-5-dpg",
+      "name": "Oak Moss abs 5% DPG",
+      "supplier": "Hekserij",
+      "noteTier": "modifier",
+      "defaultDilution": 100.0,
+      "odorStrength": "schwach",
+      "usageRate": "< 1%",
+      "shelfLife": "recht lange",
+      "characteristics": "moosig, Tabak, grün, Seegras, animalisch, Ambergris, würzig, gut mit Leder, Holz, Ozeanic",
+      "isSolvent": false,
+      "createdAt": "2026-07-09T15:46:21",
+      "updatedAt": "2026-07-09T15:46:21"
+    },
+    {
+      "id": "imp-olibanum-res-50-dpg",
+      "name": "Olibanum res. 50% DPG",
+      "cas": "8050-07-5",
+      "manufacturer": "IFF",
+      "supplier": "Hekserij",
+      "noteTier": "base",
+      "tierWeights": {
+        "base": 100
+      },
+      "defaultDilution": 100.0,
+      "odorStrength": "nicht sehr stark",
+      "usageRate": "0,1-5%",
+      "shelfLife": "recht lange",
+      "characteristics": "würzig, pudrig, gut mit harzigen grünen Noten und Holz",
+      "isSolvent": false,
+      "createdAt": "2026-07-09T15:46:21",
+      "updatedAt": "2026-07-09T15:46:21"
+    },
+    {
+      "id": "imp-olibanum-oil-oman",
+      "name": "Olibanum Oil Oman",
+      "cas": "8016-36-2",
+      "manufacturer": "Biolandes",
+      "supplier": "perfumiarz",
+      "noteTier": "heart",
+      "tierWeights": {
+        "heart": 100
+      },
+      "pricePerGram": 2.0,
+      "priceTiers": [
+        {
+          "grams": 5.0,
+          "price": 10.0
+        }
+      ],
+      "defaultDilution": 100.0,
+      "odorStrength": "recht stark",
+      "shelfLife": "recht lange",
+      "characteristics": "complex,",
+      "isSolvent": false,
+      "createdAt": "2026-07-09T15:46:21",
+      "updatedAt": "2026-07-09T15:46:21"
+    },
+    {
+      "id": "imp-olibanum-res-vulc-50-eth",
+      "name": "Olibanum res vulc 50% ETH",
+      "cas": "89957-98-2",
+      "manufacturer": "Firmenich",
+      "supplier": "perfumiarz",
+      "noteTier": "base",
+      "tierWeights": {
+        "base": 100
+      },
+      "pricePerGram": 1.0,
+      "priceTiers": [
+        {
+          "grams": 10.0,
+          "price": 10.0
+        }
+      ],
+      "defaultDilution": 100.0,
+      "shelfLife": "lange",
+      "characteristics": "Weihrauch, rauchig, holzig, dunkel",
+      "isSolvent": false,
+      "createdAt": "2026-07-09T15:46:21",
+      "updatedAt": "2026-07-09T15:46:21"
+    },
+    {
+      "id": "imp-operanide",
+      "name": "Operanide",
+      "cas": "823178-41-2",
+      "manufacturer": "IFF",
+      "supplier": "perfumiarz",
+      "noteTier": "heart",
+      "tierWeights": {
+        "heart": 70,
+        "base": 30
+      },
+      "pricePerGram": 1.4,
+      "priceTiers": [
+        {
+          "grams": 5.0,
+          "price": 7.0
+        }
+      ],
+      "defaultDilution": 100.0,
+      "characteristics": "holzig-amber, complex, weich, moosig-cremig, außergewöhnlich duffusiv, Blender, gut mit Ambrocenide, Musks, Florex, Coumarone, Clearwood, Vetiverol, Calone",
+      "isSolvent": false,
+      "createdAt": "2026-07-09T15:46:21",
+      "updatedAt": "2026-07-09T15:46:21"
+    },
+    {
+      "id": "imp-opoponax-absolute-50-tec",
+      "name": "Opoponax Absolute 50% TEC",
+      "cas": "9000-78-6",
+      "manufacturer": "Robertet",
+      "supplier": "perfumiarz",
+      "noteTier": "base",
+      "tierWeights": {
+        "base": 100
+      },
+      "pricePerGram": 1.4,
+      "priceTiers": [
+        {
+          "grams": 5.0,
+          "price": 7.0
+        }
+      ],
+      "defaultDilution": 100.0,
+      "characteristics": "holzig-balsamisch, ledrig, würzig, likörig, leicht animalisch, bereichert süsse Noten, complex, gourmandig",
+      "isSolvent": false,
+      "createdAt": "2026-07-09T15:46:21",
+      "updatedAt": "2026-07-09T15:46:21"
+    },
+    {
+      "id": "imp-orbitone-t",
+      "name": "Orbitone T",
+      "cas": "54464-57-2",
+      "manufacturer": "Takasago",
+      "supplier": "perfumiarz",
+      "noteTier": "heart",
+      "tierWeights": {
+        "heart": 100
+      },
+      "pricePerGram": 1.0,
+      "priceTiers": [
+        {
+          "grams": 5.0,
+          "price": 5.0
+        }
+      ],
+      "defaultDilution": 100.0,
+      "characteristics": "IES, weich, cremig, Klarheit in Mischungen, erreicht fast IGS",
+      "isSolvent": false,
+      "createdAt": "2026-07-09T15:46:21",
+      "updatedAt": "2026-07-09T15:46:21"
+    },
+    {
+      "id": "imp-oud-firbest",
+      "name": "Oud Firbest",
+      "manufacturer": "Firmenich",
+      "supplier": "Hekserij",
+      "noteTier": "base",
+      "tierWeights": {
+        "base": 100
+      },
+      "pricePerGram": 3.6,
+      "priceTiers": [
+        {
+          "grams": 1.0,
+          "price": 6.95
+        },
+        {
+          "grams": 2.5,
+          "price": 11.0
+        },
+        {
+          "grams": 5.0,
+          "price": 18.0
+        }
+      ],
+      "defaultDilution": 100.0,
+      "odorStrength": "nicht sehr stark",
+      "usageRate": "0,1-5%",
+      "shelfLife": "recht lange",
+      "characteristics": "Holz, Harz, Moos, Oud, animalisch",
+      "isSolvent": false,
+      "createdAt": "2026-07-09T15:46:21",
+      "updatedAt": "2026-07-09T15:46:21"
+    },
+    {
+      "id": "imp-oud-maleki",
+      "name": "Oud Maleki",
+      "manufacturer": "Firmenich",
+      "supplier": "Hekserij",
+      "noteTier": "base",
+      "tierWeights": {
+        "base": 100
+      },
+      "pricePerGram": 7.99,
+      "priceTiers": [
+        {
+          "grams": 1.0,
+          "price": 12.95
+        },
+        {
+          "grams": 5.0,
+          "price": 39.95
+        }
+      ],
+      "defaultDilution": 100.0,
+      "odorStrength": "mittel stark",
+      "usageRate": "0,1-5%",
+      "shelfLife": "recht lange",
+      "characteristics": "Holz, Harz, Patchouli, Vetiver, Stall, rauchig, animalisch, Amber",
+      "isSolvent": false,
+      "createdAt": "2026-07-09T15:46:21",
+      "updatedAt": "2026-07-09T15:46:21"
+    },
+    {
+      "id": "imp-oud-samrat",
+      "name": "Oud Samrat",
+      "manufacturer": "Firmenich",
+      "supplier": "scentfriends",
+      "noteTier": "base",
+      "tierWeights": {
+        "base": 100
+      },
+      "pricePerGram": 7.38,
+      "priceTiers": [
+        {
+          "grams": 1.0,
+          "price": 9.9
+        },
+        {
+          "grams": 5.0,
+          "price": 36.9
+        }
+      ],
+      "defaultDilution": 10.0,
+      "dilutionSolvent": "10% TEC DPG",
+      "odorStrength": "recht stark",
+      "usageRate": "0,1-1%",
+      "characteristics": "Holz, Amber, animalisch, eine Frische wie in Cashmeran,",
+      "isSolvent": false,
+      "createdAt": "2026-07-09T15:46:21",
+      "updatedAt": "2026-07-09T15:46:21"
+    },
+    {
+      "id": "imp-oud-synth-184007",
+      "name": "Oud Synth 184007",
+      "cas": "mix",
+      "manufacturer": "Firmenich",
+      "supplier": "Hekserij",
+      "noteTier": "base",
+      "tierWeights": {
+        "base": 100
+      },
+      "pricePerGram": 1.4,
+      "priceTiers": [
+        {
+          "grams": 5.0,
+          "price": 12.95
+        },
+        {
+          "grams": 10.0,
+          "price": 14.0
+        }
+      ],
+      "defaultDilution": 100.0,
+      "usageRate": "0,1-5%",
+      "shelfLife": "recht lange",
+      "characteristics": "Agarholz, süß, würzig, Amber, fügt Wärme und Würze hinzu",
+      "isSolvent": false,
+      "createdAt": "2026-07-09T15:46:21",
+      "updatedAt": "2026-07-09T15:46:21"
+    },
+    {
+      "id": "imp-palisandin",
+      "name": "Palisandin",
+      "cas": "2986-54-1",
+      "manufacturer": "Symrise",
+      "supplier": "Hekserij",
+      "noteTier": "heart",
+      "tierWeights": {
+        "heart": 70,
+        "base": 30
+      },
+      "pricePerGram": 0.695,
+      "priceTiers": [
+        {
+          "grams": 10.0,
+          "price": 6.95
+        }
+      ],
+      "defaultDilution": 100.0,
+      "usageRate": "3-10%",
+      "characteristics": "Holzig, grün-würzig, Aspekte von Iris, Patchouli, Tabak, Keller, Zeder, komplex",
+      "isSolvent": false,
+      "createdAt": "2026-07-09T15:46:21",
+      "updatedAt": "2026-07-09T15:46:21"
+    },
+    {
+      "id": "imp-pamplefleur",
+      "name": "Pamplefleur",
+      "cas": "92585-24-5",
+      "manufacturer": "IFF",
+      "supplier": "perfumiarz",
+      "noteTier": "heart",
+      "tierWeights": {
+        "heart": 70,
+        "base": 30
+      },
+      "pricePerGram": 1.2,
+      "priceTiers": [
+        {
+          "grams": 5.0,
+          "price": 6.0
+        }
+      ],
+      "defaultDilution": 100.0,
+      "purchaseDate": "2026-05-01",
+      "characteristics": "Grapefruit, Vetiver, Rhabarber Nuancen, frisch, langanhaltend, gut mit: Amarocit MP",
+      "isSolvent": false,
+      "createdAt": "2026-07-09T15:46:21",
+      "updatedAt": "2026-07-09T15:46:21"
+    },
+    {
+      "id": "imp-patchouli-eo",
+      "name": "Patchouli EO",
+      "supplier": "Hekserij",
+      "noteTier": "modifier",
+      "pricePerGram": 1.295,
+      "priceTiers": [
+        {
+          "grams": 10.0,
+          "price": 12.95
+        }
+      ],
+      "defaultDilution": 100.0,
+      "shelfLife": "lange",
+      "isSolvent": false,
+      "createdAt": "2026-07-09T15:46:21",
+      "updatedAt": "2026-07-09T15:46:21"
+    },
+    {
+      "id": "imp-patchouli-coeur-oil-indon",
+      "name": "Patchouli Coeur Oil (Indon)",
+      "cas": "8014-09-3",
+      "manufacturer": "Albert Vieille",
+      "supplier": "perfumiarz",
+      "noteTier": "heart",
+      "tierWeights": {
+        "heart": 70,
+        "base": 30
+      },
+      "pricePerGram": 1.58,
+      "priceTiers": [
+        {
+          "grams": 5.0,
+          "price": 8.9
+        },
+        {
+          "grams": 10.0,
+          "price": 15.8
+        }
+      ],
+      "defaultDilution": 100.0,
+      "odorStrength": "recht stark",
+      "shelfLife": "lange",
+      "characteristics": "holzig, frisch, kalt, fruchtig, feucht, leicht rauchig, grün, nicht erdig",
+      "isSolvent": false,
+      "createdAt": "2026-07-09T15:46:21",
+      "updatedAt": "2026-07-09T15:46:21"
+    },
+    {
+      "id": "imp-petitgrain-paraguay-eo",
+      "name": "Petitgrain Paraguay EO",
+      "cas": "72968-50-4",
+      "supplier": "Hekserij",
+      "noteTier": "top",
+      "tierWeights": {
+        "top": 70,
+        "heart": 30
+      },
+      "pricePerGram": 0.995,
+      "priceTiers": [
+        {
+          "grams": 10.0,
+          "price": 9.95
+        }
+      ],
+      "defaultDilution": 100.0,
+      "odorStrength": "nicht sehr stark",
+      "usageRate": "0,1-10%",
+      "shelfLife": "recht lange",
+      "characteristics": "grün, würzig, Citrus,",
+      "isSolvent": false,
+      "createdAt": "2026-07-09T15:46:21",
+      "updatedAt": "2026-07-09T15:46:21"
+    },
+    {
+      "id": "imp-pink-grapefruit-cold-pressed-eo",
+      "name": "Pink Grapefruit Cold Pressed EO",
+      "cas": "8016-20-4",
+      "manufacturer": "Oleolio",
+      "supplier": "perfumiarz",
+      "noteTier": "top",
+      "tierWeights": {
+        "top": 100
+      },
+      "pricePerGram": 1.2,
+      "priceTiers": [
+        {
+          "grams": 5.0,
+          "price": 6.0
+        }
+      ],
+      "defaultDilution": 100.0,
+      "purchaseDate": "2026-05-01",
+      "characteristics": "Grapefruit, frisch, saftig, radiant, bitter, gut mit: Bergamotte, Neroli, Petitgrain, Musk, leichten Hölzern",
+      "isSolvent": false,
+      "createdAt": "2026-07-09T15:46:21",
+      "updatedAt": "2026-07-09T15:46:21"
+    },
+    {
+      "id": "imp-pink-pepper-adr-eo",
+      "name": "Pink Pepper ADR EO",
+      "cas": "949495-68-5",
+      "manufacturer": "Firmenich",
+      "supplier": "Hekserij",
+      "noteTier": "top",
+      "tierWeights": {
+        "top": 100
+      },
+      "pricePerGram": 1.295,
+      "priceTiers": [
+        {
+          "grams": 2.5,
+          "price": 8.0
+        },
+        {
+          "grams": 10.0,
+          "price": 12.95
+        }
+      ],
+      "defaultDilution": 100.0,
+      "odorStrength": "nicht sehr stark",
+      "characteristics": "würzig, frisch, Pfeffer, frischer als Black Pepper",
+      "isSolvent": false,
+      "createdAt": "2026-07-09T15:46:21",
+      "updatedAt": "2026-07-09T15:46:21"
+    },
+    {
+      "id": "imp-polysantol",
+      "name": "Polysantol",
+      "cas": "107898-54-4",
+      "manufacturer": "Firmenich",
+      "supplier": "scentfriends",
+      "noteTier": "base",
+      "tierWeights": {
+        "base": 100
+      },
+      "pricePerGram": 0.695,
+      "priceTiers": [
+        {
+          "grams": 5.0,
+          "price": 4.9
+        },
+        {
+          "grams": 10.0,
+          "price": 6.95
+        }
+      ],
+      "defaultDilution": 100.0,
+      "odorStrength": "nicht sehr stark",
+      "usageRate": "0,1-5%",
+      "characteristics": "Sandelholz, erhöht die Diffusion und Radiance",
+      "isSolvent": false,
+      "createdAt": "2026-07-09T15:46:21",
+      "updatedAt": "2026-07-09T15:46:21"
+    },
+    {
+      "id": "imp-prismantol-50-dpg",
+      "name": "Prismantol 50% DPG",
+      "cas": "122760-84-3",
+      "manufacturer": "IFF",
+      "supplier": "perfumiarz",
+      "noteTier": "top",
+      "tierWeights": {
+        "top": 70,
+        "heart": 30
+      },
+      "pricePerGram": 0.5,
+      "priceTiers": [
+        {
+          "grams": 10.0,
+          "price": 5.0
+        }
+      ],
+      "defaultDilution": 100.0,
+      "characteristics": "würzig-holzig, frisch, brausig, Ingwer, Cardamom, Tanne",
+      "isSolvent": false,
+      "createdAt": "2026-07-09T15:46:21",
+      "updatedAt": "2026-07-09T15:46:21"
+    },
+    {
+      "id": "imp-rosemary-oil-morocco",
+      "name": "Rosemary Oil (Morocco)",
+      "cas": "8000-25-7",
+      "manufacturer": "Ventós",
+      "supplier": "perfumiarz",
+      "noteTier": "top",
+      "tierWeights": {
+        "top": 70,
+        "heart": 30
+      },
+      "pricePerGram": 1.0,
+      "priceTiers": [
+        {
+          "grams": 5.0,
+          "price": 5.0
+        }
+      ],
+      "defaultDilution": 100.0,
+      "purchaseDate": "2026-05-01",
+      "characteristics": "krautig, frisch, durchdringend, sauber, Kampher",
+      "isSolvent": false,
+      "createdAt": "2026-07-09T15:46:21",
+      "updatedAt": "2026-07-09T15:46:21"
+    },
+    {
+      "id": "imp-safraleine",
+      "name": "Safraleine",
+      "cas": "54440-17-4",
+      "manufacturer": "Givaudan",
+      "supplier": "Hekserij",
+      "noteTier": "base",
+      "tierWeights": {
+        "base": 100
+      },
+      "pricePerGram": 1.295,
+      "priceTiers": [
+        {
+          "grams": 10.0,
+          "price": 12.95
+        }
+      ],
+      "defaultDilution": 10.0,
+      "dilutionSolvent": "10% DPG",
+      "odorStrength": "recht stark",
+      "characteristics": "Saffran, Tabak, Leder, gibt in niedrigen Dosen einen Twist in, Gewürzen, Hölzern, Musk, Amber",
+      "isSolvent": false,
+      "createdAt": "2026-07-09T15:46:21",
+      "updatedAt": "2026-07-09T15:46:21"
+    },
+    {
+      "id": "imp-sage-dalmatia-adr-eo",
+      "name": "Sage Dalmatia ADR EO",
+      "cas": "84082-79-1",
+      "supplier": "Hekserij",
+      "noteTier": "base",
+      "tierWeights": {
+        "base": 100
+      },
+      "pricePerGram": 0.795,
+      "priceTiers": [
+        {
+          "grams": 10.0,
+          "price": 7.95
+        }
+      ],
+      "defaultDilution": 100.0,
+      "odorStrength": "nicht sehr stark",
+      "isSolvent": false,
+      "createdAt": "2026-07-09T15:46:21",
+      "updatedAt": "2026-07-09T15:46:21"
+    },
+    {
+      "id": "imp-sandalore",
+      "name": "Sandalore",
+      "cas": "65113-99-7",
+      "manufacturer": "Givaudan",
+      "supplier": "Manasse",
+      "noteTier": "base",
+      "tierWeights": {
+        "base": 100
+      },
+      "pricePerGram": 0.595,
+      "priceTiers": [
+        {
+          "grams": 10.0,
+          "price": 5.95
+        }
+      ],
+      "defaultDilution": 100.0,
+      "odorStrength": "nicht sehr stark",
+      "shelfLife": "lange",
+      "characteristics": "Sandelholz, süss-sauer, fast fruchtig, gut mit Ebanol, stimuliert das Haarwachstum (5-8%)",
+      "isSolvent": false,
+      "createdAt": "2026-07-09T15:46:21",
+      "updatedAt": "2026-07-09T15:46:21"
+    },
+    {
+      "id": "imp-sandalwood-white-eo",
+      "name": "Sandalwood White EO",
+      "supplier": "Hekserij",
+      "noteTier": "base",
+      "tierWeights": {
+        "base": 100
+      },
+      "pricePerGram": 14.95,
+      "priceTiers": [
+        {
+          "grams": 1.0,
+          "price": 14.95
+        }
+      ],
+      "defaultDilution": 100.0,
+      "odorStrength": "nicht sehr stark",
+      "characteristics": "Sandelholz, süss, warm, actonisch, Cocosnuss, sehr vielseitig",
+      "isSolvent": false,
+      "createdAt": "2026-07-09T15:46:21",
+      "updatedAt": "2026-07-09T15:46:21"
+    },
+    {
+      "id": "imp-stemone",
+      "name": "Stemone",
+      "cas": "22457-23-4",
+      "manufacturer": "Givaudan",
+      "supplier": "perfumiarz",
+      "noteTier": "top",
+      "tierWeights": {
+        "top": 70,
+        "heart": 30
+      },
+      "defaultDilution": 100.0,
+      "odorStrength": "nicht sehr stark",
+      "usageRate": "0,1-5%",
+      "shelfLife": "recht lange",
+      "purchaseDate": "2026-05-01",
+      "characteristics": "grün, geschnittenes Gras/Blätter/Stängel, Feige, ersetzt teilweise Galbanum Öl, Tomatenblatt, Johannisbeere, minzig",
+      "isSolvent": false,
+      "createdAt": "2026-07-09T15:46:21",
+      "updatedAt": "2026-07-09T15:46:21"
+    },
+    {
+      "id": "imp-styrax-res-vulc",
+      "name": "Styrax res vulc",
+      "cas": "8046-19-3",
+      "manufacturer": "Firmenich",
+      "supplier": "perfumiarz",
+      "noteTier": "base",
+      "tierWeights": {
+        "base": 100
+      },
+      "pricePerGram": 3.2,
+      "priceTiers": [
+        {
+          "grams": 2.5,
+          "price": 8.0
+        }
+      ],
+      "defaultDilution": 100.0,
+      "characteristics": "würzig-harzig, warm, ledrig, rauchig, blumig",
+      "isSolvent": false,
+      "createdAt": "2026-07-09T15:46:21",
+      "updatedAt": "2026-07-09T15:46:21"
+    },
+    {
+      "id": "imp-suederal-lt",
+      "name": "Suederal LT",
+      "manufacturer": "IFF",
+      "supplier": "perfumiarz",
+      "noteTier": "base",
+      "tierWeights": {
+        "base": 100
+      },
+      "pricePerGram": 0.445,
+      "priceTiers": [
+        {
+          "grams": 10.0,
+          "price": 5.0
+        },
+        {
+          "grams": 20.0,
+          "price": 8.9
+        }
+      ],
+      "defaultDilution": 100.0,
+      "dilutionSolvent": "10-25%",
+      "odorStrength": "nicht sehr stark",
+      "characteristics": "Leder, Tabak, verstärkt florale, rauchige und Incense Akkorde",
+      "isSolvent": false,
+      "createdAt": "2026-07-09T15:46:21",
+      "updatedAt": "2026-07-09T15:46:21"
+    },
+    {
+      "id": "imp-sylvamber",
+      "name": "Sylvamber",
+      "manufacturer": "DRT",
+      "supplier": "Hekserij",
+      "noteTier": "base",
+      "tierWeights": {
+        "base": 100
+      },
+      "pricePerGram": 0.179,
+      "priceTiers": [
+        {
+          "grams": 50.0,
+          "price": 8.95
+        }
+      ],
+      "defaultDilution": 100.0,
+      "odorStrength": "schwach",
+      "characteristics": "Amber, Holz, Zeder, lang anhaltend und harmoniert Düfte, Modifizierer",
+      "isSolvent": false,
+      "createdAt": "2026-07-09T15:46:21",
+      "updatedAt": "2026-07-09T15:46:21"
+    },
+    {
+      "id": "imp-tamarine-base-41310g",
+      "name": "Tamarine Base 41310G",
+      "cas": "mix",
+      "manufacturer": "Firmenich",
+      "supplier": "perfumiarz",
+      "noteTier": "base",
+      "tierWeights": {
+        "base": 100
+      },
+      "pricePerGram": 1.2,
+      "priceTiers": [
+        {
+          "grams": 5.0,
+          "price": 6.0
+        }
+      ],
+      "defaultDilution": 100.0,
+      "purchaseDate": "2026-05-01",
+      "characteristics": "Grüne Mandarine, Aldehyde, aromatisch, crisp, sehr diffusiv vom Kopf bis ins Herz",
+      "isSolvent": false,
+      "createdAt": "2026-07-09T15:46:21",
+      "updatedAt": "2026-07-09T15:46:21"
+    },
+    {
+      "id": "imp-tarragon-oil",
+      "name": "Tarragon Oil",
+      "cas": "8016-88-4",
+      "manufacturer": "Ventós",
+      "supplier": "perfumiarz",
+      "noteTier": "top",
+      "tierWeights": {
+        "top": 70,
+        "heart": 30
+      },
+      "pricePerGram": 1.2,
+      "priceTiers": [
+        {
+          "grams": 5.0,
+          "price": 6.0
+        }
+      ],
+      "defaultDilution": 100.0,
+      "usageRate": "Spuren",
+      "purchaseDate": "2026-05-01",
+      "characteristics": "Estragon, krautig, Lakritz, grün, frisch, anise, gut mit: Galbanum, Lavendel, Cardamom, Eichenmoos, Nelkenknospe",
+      "isSolvent": false,
+      "createdAt": "2026-07-09T15:46:21",
+      "updatedAt": "2026-07-09T15:46:21"
+    },
+    {
+      "id": "imp-unbenannt-cas-470-40-6",
+      "name": "Unbenannt (CAS 470-40-6)",
+      "cas": "470-40-6",
+      "manufacturer": "Ventós",
+      "supplier": "perfumiarz",
+      "noteTier": "heart",
+      "tierWeights": {
+        "heart": 100
+      },
+      "pricePerGram": 1.2,
+      "priceTiers": [
+        {
+          "grams": 5.0,
+          "price": 6.0
+        }
+      ],
+      "defaultDilution": 100.0,
+      "purchaseDate": "2026-05",
+      "isSolvent": false,
+      "createdAt": "2026-07-09T15:46:21",
+      "updatedAt": "2026-07-09T15:46:21"
+    },
+    {
+      "id": "imp-tobacarol",
+      "name": "Tobacarol",
+      "cas": "1209-61-6",
+      "manufacturer": "IFF",
+      "supplier": "perfumiarz",
+      "noteTier": "heart",
+      "tierWeights": {
+        "heart": 100
+      },
+      "pricePerGram": 1.2,
+      "priceTiers": [
+        {
+          "grams": 5.0,
+          "price": 6.0
+        }
+      ],
+      "defaultDilution": 100.0,
+      "dilutionSolvent": "0.01",
+      "odorStrength": "schwach",
+      "characteristics": "holzig, weich, Tabak, warm, Muskat, rauchig, Amber, aussergewöhnlicher Anhaftung und Diffusion, gut mit Birkenteer, Benzoin, Tonka, Sndelholz, Zeder, Blender",
+      "isSolvent": false,
+      "createdAt": "2026-07-09T15:46:21",
+      "updatedAt": "2026-07-09T15:46:21"
+    },
+    {
+      "id": "imp-trifernal",
+      "name": "Trifernal",
+      "cas": "16251-77-7",
+      "manufacturer": "Firmenich",
+      "supplier": "perfumiarz",
+      "noteTier": "heart",
+      "tierWeights": {
+        "heart": 100
+      },
+      "pricePerGram": 0.7,
+      "priceTiers": [
+        {
+          "grams": 10.0,
+          "price": 7.0
+        }
+      ],
+      "defaultDilution": 100.0,
+      "purchaseDate": "2026-05",
+      "isSolvent": false,
+      "createdAt": "2026-07-09T15:46:21",
+      "updatedAt": "2026-07-09T15:46:21"
+    },
+    {
+      "id": "imp-trimofix",
+      "name": "Trimofix",
+      "cas": "144020-22-4",
+      "noteTier": "base",
+      "tierWeights": {
+        "base": 100
+      },
+      "pricePerGram": 1.2,
+      "priceTiers": [
+        {
+          "grams": 5.0,
+          "price": 6.0
+        }
+      ],
+      "defaultDilution": 100.0,
+      "odorStrength": "nicht sehr stark",
+      "characteristics": "holzig-musky, Zeder, Vetiver, Amber, diffusiv, complex, kräftig, gut mit Patchouli, Cashmeran, Vertofix Coer, Zeder, Zenolide, Sylvamber, Opoponax, Labdanum, Leder",
+      "isSolvent": false,
+      "createdAt": "2026-07-09T15:46:21",
+      "updatedAt": "2026-07-09T15:46:21"
+    },
+    {
+      "id": "imp-vetiver-haiti",
+      "name": "Vetiver Haiti",
+      "noteTier": "modifier",
+      "defaultDilution": 100.0,
+      "isSolvent": false,
+      "createdAt": "2026-07-09T15:46:21",
+      "updatedAt": "2026-07-09T15:46:21"
+    },
+    {
+      "id": "imp-vertofix-coeur",
+      "name": "Vertofix Coeur",
+      "cas": "32388-55-9",
+      "manufacturer": "IFF",
+      "supplier": "Hekserij",
+      "noteTier": "base",
+      "tierWeights": {
+        "base": 100
+      },
+      "pricePerGram": 0.595,
+      "priceTiers": [
+        {
+          "grams": 10.0,
+          "price": 5.95
+        }
+      ],
+      "defaultDilution": 100.0,
+      "odorStrength": "nicht sehr stark",
+      "usageRate": "0,1-30%",
+      "shelfLife": "recht lange",
+      "characteristics": "holzig trocken, Zeder, musky,  sehr vielseitig, fügt wärme und animalik hinzu, verstärkt Diffusion, gut mit Cedramber,",
+      "isSolvent": false,
+      "createdAt": "2026-07-09T15:46:21",
+      "updatedAt": "2026-07-09T15:46:21"
+    },
+    {
+      "id": "imp-z11-hd-8-5-mip-ipm",
+      "name": "Z11 HD 8,5% MIP/IPM",
+      "cas": "144020-22-4",
+      "manufacturer": "Firmenich",
+      "supplier": "perfumiarz",
+      "noteTier": "base",
+      "tierWeights": {
+        "base": 100
+      },
+      "pricePerGram": 1.6,
+      "priceTiers": [
+        {
+          "grams": 5.0,
+          "price": 8.0
+        }
+      ],
+      "defaultDilution": 100.0,
+      "usageRate": "0,1-1,5%",
+      "characteristics": "amber-holzig, nobel, leuchtend, musky, pudrig, gute Projektion, Fixateur, Brücke zw. Schwerem Holz und Iris, gut mit Ionone, Brücke Herz-Basis",
+      "isSolvent": false,
+      "createdAt": "2026-07-09T15:46:21",
+      "updatedAt": "2026-07-09T15:46:21"
+    },
+    {
+      "id": "imp-zirbe",
+      "name": "Zirbe",
+      "noteTier": "modifier",
+      "defaultDilution": 100.0,
+      "isSolvent": false,
+      "createdAt": "2026-07-09T15:46:21",
+      "updatedAt": "2026-07-09T15:46:21"
+    }
+  ],
+  "formulas": [],
+  "settings": {
+    "currency": "€",
+    "defaultUnit": "grams",
+    "defaultGramsPerDrop": 0.02,
+    "theme": "light"
+  }
+}

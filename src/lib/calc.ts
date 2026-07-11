@@ -5,8 +5,8 @@
  * Every function is unit-tested in calc.test.ts.
  * Rule: never round internally — round only for display.
  */
-import type { Formula, Ingredient, NoteTier, UUID } from '../types/models';
-import { NOTE_TIERS } from '../types/models';
+import type { Formula, Ingredient, NoteTier, TierWeights, UUID } from '../types/models';
+import { NOTE_TIERS, normalizeTierWeights, primaryTier } from '../types/models';
 import { densityFor, gramsPerDropFor } from './units';
 
 /** Default reference batch mass (grams) for percent-mode formulas. */
@@ -17,6 +17,8 @@ export interface LineResult {
   ingredientId: UUID;
   ingredientName: string;
   noteTier: NoteTier;
+  /** Effective pyramid distribution used for this line (percent, sums to 100). */
+  tierWeights: TierWeights;
   /** true if the line references an ingredient that could not be resolved. */
   unknown: boolean;
   isSolvent: boolean;
@@ -106,8 +108,16 @@ export function computeFormula(
     const activeGrams = massGrams * (dilution / 100);
     const volumeMl = massGrams / densityFor(ingredient);
     const cost = massGrams * (ingredient?.pricePerGram ?? 0);
-    const noteTier: NoteTier = line.noteTierOverride ?? ingredient?.noteTier ?? 'modifier';
     const isSolvent = ingredient?.isSolvent === true;
+
+    // Effective pyramid distribution for this line (percent map summing to 100):
+    // a line-level tier override forces 100 % that tier; otherwise use the
+    // ingredient's tierWeights, falling back to 100 % of its single noteTier.
+    const fallbackTier: NoteTier = ingredient?.noteTier ?? 'modifier';
+    const tierWeights: TierWeights = line.noteTierOverride
+      ? { [line.noteTierOverride]: 100 }
+      : normalizeTierWeights(ingredient?.tierWeights) ?? { [fallbackTier]: 100 };
+    const noteTier: NoteTier = line.noteTierOverride ?? primaryTier(tierWeights, fallbackTier);
 
     return {
       line,
@@ -119,6 +129,7 @@ export function computeFormula(
       volumeMl,
       cost,
       noteTier,
+      tierWeights,
     };
   });
 
@@ -132,6 +143,7 @@ export function computeFormula(
     ingredientId: p.line.ingredientId,
     ingredientName: p.ingredient?.name ?? 'Unbekannt',
     noteTier: p.noteTier,
+    tierWeights: p.tierWeights,
     unknown: p.unknown,
     isSolvent: p.isSolvent,
     massGrams: p.massGrams,
@@ -142,9 +154,13 @@ export function computeFormula(
   }));
 
   // Tier breakdown by active grams; percent relative to total active mass.
+  // Each line's active mass is split across its tierWeights distribution.
   const tierBreakdown = emptyTiers();
   for (const p of partial) {
-    tierBreakdown[p.noteTier].grams += p.activeGrams;
+    for (const tier of NOTE_TIERS) {
+      const w = p.tierWeights[tier];
+      if (w) tierBreakdown[tier].grams += p.activeGrams * (w / 100);
+    }
   }
   for (const tier of NOTE_TIERS) {
     tierBreakdown[tier].percent =

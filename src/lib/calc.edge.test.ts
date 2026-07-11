@@ -166,6 +166,52 @@ describe('scaleFormulaToMass edge', () => {
   });
 });
 
+describe('tier weight distribution (pyramid)', () => {
+  it('splits active mass across tierWeights', () => {
+    const a = ing({ id: 'a', name: 'A', noteTier: 'top', tierWeights: { top: 70, heart: 30 } });
+    const f = formula('grams', [line({ ingredientId: 'a', amount: 10 })]);
+    const r = computeFormula(f, byId(a));
+    expect(r.tierBreakdown.top.grams).toBeCloseTo(7, 10);
+    expect(r.tierBreakdown.heart.grams).toBeCloseTo(3, 10);
+    expect(r.tierBreakdown.top.percent).toBeCloseTo(70, 6);
+    expect(r.tierBreakdown.heart.percent).toBeCloseTo(30, 6);
+  });
+
+  it('unnormalized weights are rescaled to 100 %', () => {
+    const a = ing({ id: 'a', name: 'A', noteTier: 'top', tierWeights: { top: 35, heart: 15 } });
+    const f = formula('grams', [line({ ingredientId: 'a', amount: 10 })]);
+    const r = computeFormula(f, byId(a));
+    expect(r.tierBreakdown.top.grams).toBeCloseTo(7, 10); // 35/50
+    expect(r.tierBreakdown.heart.grams).toBeCloseTo(3, 10); // 15/50
+  });
+
+  it('no tierWeights → 100 % of single noteTier (backward compatible)', () => {
+    const a = ing({ id: 'a', name: 'A', noteTier: 'base' });
+    const f = formula('grams', [line({ ingredientId: 'a', amount: 10 })]);
+    const r = computeFormula(f, byId(a));
+    expect(r.tierBreakdown.base.grams).toBeCloseTo(10, 10);
+    expect(r.tierBreakdown.base.percent).toBeCloseTo(100, 10);
+  });
+
+  it('line noteTierOverride forces 100 % that tier over the distribution', () => {
+    const a = ing({ id: 'a', name: 'A', noteTier: 'top', tierWeights: { top: 70, heart: 30 } });
+    const f = formula('grams', [line({ ingredientId: 'a', amount: 10, noteTierOverride: 'base' })]);
+    const r = computeFormula(f, byId(a));
+    expect(r.tierBreakdown.base.grams).toBeCloseTo(10, 10);
+    expect(r.tierBreakdown.top.grams).toBe(0);
+    expect(r.lines[0].noteTier).toBe('base');
+  });
+
+  it('distribution respects dilution (uses active mass)', () => {
+    const a = ing({ id: 'a', name: 'A', noteTier: 'top', tierWeights: { top: 50, base: 50 } });
+    const f = formula('grams', [line({ ingredientId: 'a', amount: 10, dilution: 50 })]); // active 5
+    const r = computeFormula(f, byId(a));
+    expect(r.totalActiveGrams).toBeCloseTo(5, 10);
+    expect(r.tierBreakdown.top.grams).toBeCloseTo(2.5, 10);
+    expect(r.tierBreakdown.base.grams).toBeCloseTo(2.5, 10);
+  });
+});
+
 describe('solventToAddForTargetConcentration edge', () => {
   it('target 100% → add nothing', () => {
     expect(solventToAddForTargetConcentration(20, 100)).toBeCloseTo(0, 10);

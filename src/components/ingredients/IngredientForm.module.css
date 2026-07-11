@@ -29,8 +29,100 @@
   accent-color: var(--accent-primary);
 }
 
+.sectionLabel {
+  grid-column: 1 / -1;
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--text-secondary);
+  border-bottom: 1px solid var(--border, #e5e5e5);
+  padding-bottom: var(--space-1);
+  margin-top: var(--space-2);
+}
+
+/* Compact grid for the 6 price-per-pack inputs */
+.priceGrid {
+  grid-column: 1 / -1;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: var(--space-2);
+}
+
+.priceGrid .cell {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-1);
+}
+
+.priceGrid .cellLabel {
+  font-size: 11px;
+  color: var(--text-secondary);
+  text-align: center;
+}
+
+.priceHint {
+  grid-column: 1 / -1;
+  font-size: 12px;
+  color: var(--text-secondary);
+}
+
+/* Tier weight editor */
+.tierEditor {
+  grid-column: 1 / -1;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: var(--space-2);
+}
+
+.tierCell {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-1);
+}
+
+.tierCellLabel {
+  font-size: 12px;
+  color: var(--text-secondary);
+  text-align: center;
+}
+
+.sumRow {
+  grid-column: 1 / -1;
+  display: flex;
+  align-items: center;
+  gap: var(--space-3);
+  font-size: 12px;
+}
+
+.sumOk {
+  color: var(--success, #157347);
+  font-weight: 600;
+}
+
+.sumWarn {
+  color: var(--danger);
+  font-weight: 600;
+}
+
+.linkBtn {
+  background: none;
+  border: none;
+  color: var(--accent-primary);
+  font-size: 12px;
+  cursor: pointer;
+  padding: 0;
+  text-decoration: underline;
+}
+
 @media (max-width: 560px) {
   .grid {
     grid-template-columns: 1fr;
+  }
+  .priceGrid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .tierEditor {
+    grid-template-columns: repeat(2, 1fr);
   }
 }

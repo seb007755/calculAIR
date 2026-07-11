@@ -10,9 +10,17 @@ import type {
   FormulaLine,
   Ingredient,
   NoteTier,
+  PriceTier,
+  TierWeights,
   UUID,
 } from '../types/models';
-import { AMOUNT_UNITS, NOTE_TIERS, SCHEMA_VERSION } from '../types/models';
+import {
+  AMOUNT_UNITS,
+  NOTE_TIERS,
+  SCHEMA_VERSION,
+  normalizeTierWeights,
+  primaryTier,
+} from '../types/models';
 
 export interface ImportResult {
   data: AppData;
@@ -30,26 +38,67 @@ const optNum = (v: unknown): number | undefined =>
 const bool = (v: unknown): boolean | undefined => (typeof v === 'boolean' ? v : undefined);
 const nowIso = () => new Date().toISOString();
 
-const noteTier = (v: unknown): NoteTier =>
-  NOTE_TIERS.includes(v as NoteTier) ? (v as NoteTier) : 'heart';
 const amountUnit = (v: unknown): AmountUnit =>
   AMOUNT_UNITS.includes(v as AmountUnit) ? (v as AmountUnit) : 'grams';
+const optStr = (v: unknown): string | undefined =>
+  v != null && str(v).trim() !== '' ? str(v).trim() : undefined;
+
+/** Read a per-tier weight map, keeping only finite positive numbers. */
+function coerceTierWeights(v: unknown): TierWeights | undefined {
+  if (!isObj(v)) return undefined;
+  const out: TierWeights = {};
+  for (const tier of NOTE_TIERS) {
+    const n = optNum(v[tier]);
+    if (typeof n === 'number' && n > 0) out[tier] = n;
+  }
+  return Object.keys(out).length ? out : undefined;
+}
+
+/** Read pack price points: array of { grams>0, price>=0 }. */
+function coercePriceTiers(v: unknown): PriceTier[] | undefined {
+  if (!Array.isArray(v)) return undefined;
+  const tiers: PriceTier[] = [];
+  for (const raw of v) {
+    if (!isObj(raw)) continue;
+    const grams = optNum(raw.grams);
+    const price = optNum(raw.price);
+    if (typeof grams === 'number' && grams > 0 && typeof price === 'number' && price >= 0) {
+      tiers.push({ grams, price });
+    }
+  }
+  return tiers.length ? tiers : undefined;
+}
 
 function coerceIngredient(raw: unknown): Ingredient | null {
   if (!isObj(raw)) return null;
   const id = str(raw.id) || crypto.randomUUID();
   const name = str(raw.name).trim();
   if (!name) return null;
+  const tierWeights = normalizeTierWeights(coerceTierWeights(raw.tierWeights));
+  // noteTier: honour an explicit valid value, else derive from the distribution.
+  const primary: NoteTier = NOTE_TIERS.includes(raw.noteTier as NoteTier)
+    ? (raw.noteTier as NoteTier)
+    : primaryTier(tierWeights, 'heart');
   return {
     id,
     name,
-    cas: raw.cas != null ? str(raw.cas) : undefined,
-    supplier: raw.supplier != null ? str(raw.supplier) : undefined,
-    noteTier: noteTier(raw.noteTier),
+    cas: optStr(raw.cas),
+    manufacturer: optStr(raw.manufacturer),
+    supplier: optStr(raw.supplier),
+    noteTier: primary,
+    tierWeights,
     density: optNum(raw.density),
     pricePerGram: optNum(raw.pricePerGram),
+    priceTiers: coercePriceTiers(raw.priceTiers),
     defaultDilution: clamp(num(raw.defaultDilution, 100), 0, 100) || 100,
-    ifraNote: raw.ifraNote != null ? str(raw.ifraNote) : undefined,
+    dilutionSolvent: optStr(raw.dilutionSolvent),
+    odorStrength: optStr(raw.odorStrength),
+    usageRate: optStr(raw.usageRate),
+    shelfLife: optStr(raw.shelfLife),
+    purchaseDate: optStr(raw.purchaseDate),
+    expiryDate: optStr(raw.expiryDate),
+    characteristics: optStr(raw.characteristics),
+    ifraNote: optStr(raw.ifraNote),
     tags: Array.isArray(raw.tags) ? raw.tags.filter((t): t is string => typeof t === 'string') : undefined,
     isSolvent: bool(raw.isSolvent),
     createdAt: str(raw.createdAt) || nowIso(),

@@ -166,11 +166,17 @@ export function exportFormulaToPdf(
   const lineNotes = formula.lines
     .map((l, i) => (l.note ? `• ${result.lines[i].ingredientName}: ${l.note}` : null))
     .filter(Boolean) as string[];
-  const ifraNotes = Array.from(new Set(formula.lines.map((l) => ingredientsById[l.ingredientId])))
-    .filter((ing): ing is Ingredient => !!ing && !!ing.ifraNote)
+  const usedIngredients = Array.from(
+    new Set(formula.lines.map((l) => ingredientsById[l.ingredientId])),
+  ).filter((ing): ing is Ingredient => !!ing);
+  const charNotes = usedIngredients
+    .filter((ing) => ing.characteristics)
+    .map((ing) => `• ${ing.name}: ${ing.characteristics}`);
+  const ifraNotes = usedIngredients
+    .filter((ing) => ing.ifraNote)
     .map((ing) => `• ${ing.name}: ${ing.ifraNote}`);
 
-  if (lineNotes.length || ifraNotes.length) {
+  if (lineNotes.length || charNotes.length || ifraNotes.length) {
     y += 4;
     doc.setFont('helvetica', 'bold');
     doc.setTextColor(...INK);
@@ -178,7 +184,7 @@ export function exportFormulaToPdf(
     y += 5;
     doc.setFont('helvetica', 'normal');
     doc.setTextColor(...GREY);
-    [...lineNotes, ...ifraNotes].forEach((n) => {
+    [...lineNotes, ...charNotes, ...ifraNotes].forEach((n) => {
       const wrapped = doc.splitTextToSize(n, pageWidth - margin * 2);
       doc.text(wrapped, margin, y);
       y += wrapped.length * 4.5;
